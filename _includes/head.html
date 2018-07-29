@@ -2,11 +2,11 @@
   {% include meta.html %}
 
   <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
+    {%- if page.title == "Home" -%}
+      {{ site.title | escape }}
+    {%- else -%}
+      {{ page.title | escape }} &middot; {{ site.title | escape }}
+    {%- endif -%}
   </title>
 
   <!-- CSS -->
