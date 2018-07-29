@@ -1,0 +1,49 @@
+{%- capture page_title -%}
+  {%- if page.title -%}
+    {{ page.title | escape }}
+  {%- else -%}
+    {{ site.title | strip_html | strip_newlines | truncate: 160 }}
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- capture page_description -%}
+  {%- if page.excerpt -%}
+    {{ page.excerpt | escape }}
+  {%- else -%}
+    {{ site.description | strip_html | strip_newlines | truncate: 160 }}
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- capture image_url -%}
+{%- if page.image -%}
+  {%- if page.image.first -%}
+    {{ "/assets/img/" | append: page.image.filename | absolute_url }}
+  {%- else -%}
+    {{ "/assets/img/" | append: page.image | absolute_url }}
+  {%- endif -%}
+{%- endif -%}
+{%- endcapture -%}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% if page.title == "Home" %}
+  <meta name="description" content="{{ site.description }}">
+{% endif %}
+
+<meta name="author" content="{{site.author.name}}" />
+
+<!-- social in particular -->
+<meta property="og:title" content="{{page_title}}">
+<meta property="og:description" content="{{page_description}}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:locale" content="en_US" />
+{% if image_url %}<meta property="og:image" content="{{image_url}}" />{% endif %}
+
+<!-- twitter card -->
+<meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
+<meta name="twitter:site" content="{{ site.twitter_username }}">
+<meta name="twitter:creator" content="{{ site.author.twitter }}">
+<meta name="twitter:title" content="{{ page_title }}">
+<meta name="twitter:description" content="{{ page_description }}">
+{% if image_url %}<meta name="twitter:image" content="{{image_url}}" />{% endif %}

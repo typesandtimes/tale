@@ -1,7 +1,7 @@
 # Site settings
-title:          Types and Times
+title:          "Types & Times"
 description:    "Programming languages, types, calendars, and time zones"
-baseurl:        "/"
+#baseurl:        "/"
 url:            "https://typesandtimes.github.io"
 
 # Author
@@ -9,6 +9,7 @@ author:
   name:         Scott Kilpatrick
   url:          
   email:        skilpat@gmail.com
+  twitter:      "@skilpat"
 
 # Build settings
 markdown:       kramdown
