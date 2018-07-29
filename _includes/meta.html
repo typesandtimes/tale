@@ -1,5 +1,5 @@
 {%- capture page_title -%}
-  {%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}
+  {%- if page.title and page.title != "Home" -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}
 {%- endcapture -%}
 
 {%- capture page_description -%}
