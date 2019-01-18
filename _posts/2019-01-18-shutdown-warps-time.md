@@ -4,8 +4,8 @@ title: "How the Government Shutdown Warps Time Itself!"
 excerpt: "The curious causal chain connecting the federal government shutdown to computer timekeeping and leap seconds."
 image:
   filename: "trump_groundhog_day2.jpg"
-  alt:      "Trump driving Punxsutawney Phil into madness."
-  caption:  "Trump driving Punxsutawney Phil into madness."
+  alt:      "Trump's shutdown meets Punxsutawney Phil."
+  caption:  "Trump's shutdown meets Punxsutawney Phil."
 date: 2019-01-18
 author: "Scott"
 ---
