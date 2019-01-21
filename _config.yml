@@ -28,3 +28,5 @@ plugins:
 # Permalinks
 permalink:      /:year/:month/:title
 paginate:       5
+
+google_analytics: UA-132848114-1
