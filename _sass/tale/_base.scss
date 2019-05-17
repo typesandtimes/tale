@@ -64,3 +64,25 @@ img {
 td {
   vertical-align: top;
 }
+
+#logo {
+  float: left;
+  margin-right: 10px;
+}
+
+/*
+hr.asterisks {
+  
+}
+*/
+
+hr {
+    border: none;
+}
+
+hr::before {
+    content: '* \00a0\00a0\00a0 * \00a0\00a0\00a0 *';
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}

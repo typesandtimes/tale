@@ -1,6 +1,6 @@
 # Site settings
 title:          "Types & Times"
-description:    "Programming languages, types, calendars, and time zones"
+description:    "Programming languages, types, time, and calendars"
 #baseurl:        "/"
 url:            "https://typesandtimes.net/"
 
@@ -8,8 +8,8 @@ url:            "https://typesandtimes.net/"
 author:
   name:         Scott Kilpatrick
   url:          
-  email:        skilpat@gmail.com
-  twitter:      "@skilpat"
+  email:        typesandtimes@gmail.com
+  twitter:      "@typesandtimes"
 
 # Build settings
 markdown:       kramdown
