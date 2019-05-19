@@ -12,7 +12,7 @@ author: "Scott"
 
 
 One hundred years ago today, on 19 May 1919, one-third of the population of
-the town of Amherst, Nova Scotia -- women and men alike -- launched a three-week
+the town of Amherst, Nova Scotia --- women and men alike --- launched a three-week
 general strike. The primary demand of the strikers was to shorten the work day
 from ten hours to nine. But among the targets of their anger was the
 "capitalist plot" of daylight saving time (DST).
@@ -27,8 +27,8 @@ launched a general strike only days before.
 
 Chief among the strikers’ demands was to shorten the work day from ten hours
 to nine, at the same weekly pay. For these strikers, the bosses’ control over
-their time -- in the length of the work day -- fused with the government’s
-control over their time -- with the official observance of DST. It was only
+their time --- in the length of the work day --- fused with the government’s
+control over their time --- with the official observance of DST. It was only
 natural, then, for their anger to spread to the latter.
 
 Canada followed the US into nationwide DST in 1918, causing mass anger from
@@ -82,7 +82,7 @@ In the hundred years since, all of North America has adopted nationwide
 daylight saving time policies. Moreover, large swathes of North America have
 experienced more deindustrialization as production moves not to inland Canada
 but around the globe. One wonders whether new demands for shorter work days
-will spring up again in North America -- and whether those demands will be
+will spring up again in North America --- and whether those demands will be
 linked explicitly to daylight saving time.
 
 
