@@ -1,0 +1,10 @@
+<figure class="image">
+  {% if include.embiggen %}
+  <a href="{{ "/assets/img/" | append: include.filename | absolute_url }}">
+  {% endif %}
+  <img src="{{ "/assets/img/" | append: include.filename | absolute_url }}" alt="{{ include.description }}">
+  {% if include.embiggen %}
+  </a>
+  {% endif %}
+  <figcaption>{{ include.description }}</figcaption>
+</figure>

@@ -66,4 +66,28 @@
     padding: 0;
     margin: 0;
   }
+
+  figure {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  figcaption {
+    color: $default-tint;
+    display: block;
+    font-family: $sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    text-align: center;
+  }
+
+  blockquote.nogray {
+    color: $default-color;
+  }
+
+  .footnotes {
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    color: $grey-1;
+  }
 }
