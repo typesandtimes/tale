@@ -6,8 +6,9 @@ image:
   filename: “astronomy-jupyter-pytz.png”
   alt:      “A mash-up of the Monthly Notices of the Royal Astronomical Society report and a Jupyter notebook.”
   caption:  “A mash-up of the Monthly Notices of the Royal Astronomical Society report containing the history of New York City local mean time along with a Jupyter notebook revealing the buggy Python behavior.”
-date: 2019-05-22
+date: 2019-05-23
 author: “Scott”
+draft: true
 —
 
 
