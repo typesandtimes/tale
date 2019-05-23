@@ -137,7 +137,7 @@ if not simply approximated as the exact same time. Where does this roughly
 -1m offset come from then?
 
 Looking at the commentary in the tzdb, one sees
-[the following note](https://github.com/eggert/tz/blob/master/europe#L106-L125)
+[the following note](https://github.com/eggert/tz/blob/2019a/europe#L106-L125)
 from contributor Peter Ilieve:
 > On 17 Jan 1994 the Independent, a UK quality newspaper, had a piece about
 > historical vistas along the Thames in west London. There was a photo
@@ -149,7 +149,7 @@ from contributor Peter Ilieve:
 > position is 51° 28' 30" N, 0° 18' 45" W. The longitude should
 > be within about ±2". [...]
 >
-> [This yields [GMTOFF = -0:01:15](https://github.com/eggert/tz/blob/master/europe#L504) for London LMT in the 18th century.]
+> [This yields [GMTOFF = -0:01:15](https://github.com/eggert/tz/blob/2019a/europe#L504) for London LMT in the 18th century.]
 {:.nogray}
 
 Your program could evaluate to a number whose provenance is traced back to
@@ -176,4 +176,4 @@ _out-of-thin-air value_.
     Technically, it picks put the Eastern Standard Time offset of -5h, but along with [that offset](https://github.com/eggert/tz/blob/2019a/northamerica#L339) comes the `US` daylight saving time rule. [That rule](https://github.com/eggert/tz/blob/2019a/northamerica#L162) then says that the datetime falls within a DST period and so 1h should be added to the offset, resulting in -4h.
     
 [^pytzcode]:
-    Pytz's `tzinfo` objects are intialized with the very first GMT offset of the zone [here](https://github.com/stub42/pytz/blob/master/src/pytz/tzinfo.py#L186-L187). Then in its [implementation] (https://github.com/stub42/pytz/blob/master/src/pytz/tzinfo.py#L425) of the `utcoffset` method, called by the `print` method, it simply uses that same offset rather than indexing into the stored data with the datetime.
+    Pytz's `tzinfo` objects are intialized with the very first GMT offset of the zone [here](https://github.com/stub42/pytz/blob/release_2019.1/src/pytz/tzinfo.py#L186-L187). Then in its [implementation] (https://github.com/stub42/pytz/blob/release_2019.1/src/pytz/tzinfo.py#L425) of the `utcoffset` method, called by the `print` method, it simply uses that same offset rather than indexing into the stored data with the datetime.
