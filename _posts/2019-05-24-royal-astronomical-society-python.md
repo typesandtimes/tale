@@ -149,7 +149,7 @@ import pytz
 
 # the *correct* localized datetime for 2019 May 21 12:30pm, NYC/Eastern Time
 print(pytz.timezone('America/New_York').localize(
-    datetime(2019, 5, 21, 12, 30)))
+        datetime(2019, 5, 21, 12, 30)))
 ```
 
 Now the local datetime indexes into the `America/New_York` definition by picking out the correct GMT offset, -4h.[^dst]
