@@ -25,9 +25,9 @@ war, jobs were scarce; mass industrial actions and news of the Bolshevik
 revolution were both on the rise; and the town of Winnipeg, Manitoba had
 launched a general strike only days before.
 
-Chief among the strikers’ demands was to shorten the work day from ten hours
-to nine, at the same weekly pay. For these strikers, the bosses’ control over
-their time --- in the length of the work day --- fused with the government’s
+Chief among the strikers' demands was to shorten the work day from ten hours
+to nine, at the same weekly pay. For these strikers, the bosses' control over
+their time --- in the length of the work day --- fused with the government's
 control over their time --- with the official observance of DST. It was only
 natural, then, for their anger to spread to the latter.
 
@@ -63,7 +63,7 @@ Amherst Federation of Labor made sure to squash DST in their town. At one town
 discussion about DST before the strike erupted,
 
 > 300 Amherst Federation of Labor members marched to the public meeting and
-> “hooted down” daylight saving proponents. [One union leader] charged angrily
+> "hooted down" daylight saving proponents. [One union leader] charged angrily
 > that daylight saving was a capitalist plot to lengthen the working day.
 > [^excerpt]
 {:.nogray}
@@ -87,6 +87,6 @@ linked explicitly to daylight saving time.
 
 
 [^excerpt]:
-    Nolan Reilly, “The General Strike of Amherst, Nova Scotia, 1919,” 1980.
+    Nolan Reilly, "The General Strike of Amherst, Nova Scotia, 1919," 1980.
     This excerpt, along with most of the historical background about the strike,
     comes from this article. [[pdf](https://journals.lib.unb.ca/index.php/Acadiensis/article/download/11527/12277)]
