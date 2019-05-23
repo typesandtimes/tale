@@ -86,3 +86,13 @@ hr::before {
     text-align: center;
     font-size: 20px;
 }
+
+.mono {
+    font-family: $monospace;
+}
+
+.subscribe {
+    color: $grey-1;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
