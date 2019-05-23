@@ -89,11 +89,39 @@ the "local mean time" (LMT), up until 1883 Nov 18 12:03:58, which is the NYC
 local time of when GMT was standardized by US railways (though not yet
 officially by the federal government). Note that the local time of the change
 is 3m 58s after noon.[^change]
- 
-That helpful comment from the tzdb editor-in-chief above the time zone
-definition is how I derived the historical context above. I'm not the first
+
+Back to that buggy pytz code.
+
+It's a fairly common mistake to make. In fact, here's a snapshot of the
+[69 results](https://www.google.com/search?q=%22pytz%22+%22datetime%22++%224:56%22+site:stackoverflow.com)
+Google returns for `"pytz" "datetime" "4:56"` on Stack Overflow:
+
+{% include image.html filename="pytz-456-google-results.png" %}
+
+The bug is even common enough to warrant [mention](http://pytz.sourceforge.net/#localized-times-and-date-arithmetic)
+on the pytz website as
+a "gotcha" to avoid. The source of the bug is that the pytz `tzinfo` object passed to the `datetime` constructor is using _the very first_ GMT offset defined for the zone in tzdb, which tends to be some longitudinally-derived LMT from before standardized timekeeping.[^pytzcode]
+
+What should pytz's implementation do instead? The same thing it does when you construct a localized `datetime` in pytz's preferred, albeit non-standard, way: use the local datetime as an index into the tzdb zone definition. For example, this program will do what you expect:
+```python
+from datetime import datetime
+import pytz
+
+# the *correct* localized datetime for 2019 May 21 12:30pm, NYC/Eastern Time
+print(pytz.timezone('America/New_York').localize(
+        datetime(2019, 5, 21, 12, 30)))
+```
+
+Now the local datetime indexes into the `America/New_York` definition by picking out the correct GMT offset, -4h:[^dst]
+```
+2019-05-21 12:30:00-04:00
+```
+
+* * *
+
+Looking back at the `America/New_York` definition from before, we see helpful commentary from the tzdb editor-in-chief. That's how I derived the historical context above. I'm not the first
 person to [appreciate](https://blog.jonudell.net/2009/10/23/a-literary-appreciation-of-the-olsonzoneinfotz-database/)
-such commentary in the tz data.
+such commentary in the tzdb.
 
 Along those lines, there's another curious provenance to the LMT that
 tzdb assigns to a time zone for 19th century dates. If we replace
@@ -130,32 +158,6 @@ based on an old newspaper photograph and a handy map. I believe that's what
 they call in the formal semantics of memory models literature an
 _out-of-thin-air value_.
 
-Back to that buggy pytz code.
-
-It's a fairly common mistake to make. In fact, here's a snapshot of the
-[69 results](https://www.google.com/search?q=%22pytz%22+%22datetime%22++%224:56%22+site:stackoverflow.com)
-Google returns for `"pytz" "datetime" "4:56"` on Stack Overflow:
-
-{% include image.html filename="pytz-456-google-results.png" %}
-
-The bug is even common enough to warrant [mention](http://pytz.sourceforge.net/#localized-times-and-date-arithmetic)
-on the pytz website as
-a "gotcha" to avoid. The source of the bug is that the pytz `tzinfo` object passed to the `datetime` constructor is using _the very first_ GMT offset defined for the zone in tzdb, which tends to be some longitudinally-derived LMT from before standardized timekeeping.[^pytzcode]
-
-What should pytz's implementation do instead? The same thing it does when you construct a localized `datetime` in pytz's preferred, albeit non-standard, way: use the local datetime as an index into the tzdb zone definition. For example, this program will do what you expect:
-```python
-from datetime import datetime
-import pytz
-
-# the *correct* localized datetime for 2019 May 21 12:30pm, NYC/Eastern Time
-print(pytz.timezone('America/New_York').localize(
-        datetime(2019, 5, 21, 12, 30)))
-```
-
-Now the local datetime indexes into the `America/New_York` definition by picking out the correct GMT offset, -4h.[^dst]
-
-
-
 
 [^ref]:
     [Notes on some Points connected with the Progress of Astronomy during the
@@ -174,4 +176,4 @@ Now the local datetime indexes into the `America/New_York` definition by picking
     Technically, it picks put the Eastern Standard Time offset of -5h, but along with [that offset](https://github.com/eggert/tz/blob/2019a/northamerica#L339) comes the `US` daylight saving time rule. [That rule](https://github.com/eggert/tz/blob/2019a/northamerica#L162) then says that the datetime falls within a DST period and so 1h should be added to the offset, resulting in -4h.
     
 [^pytzcode]:
-    Pytz's `tzinfo` objects are intialized with the very first GMT offset of the zone [here](https://github.com/stub42/pytz/blob/master/src/pytz/tzinfo.py#L186). Then in its implementation of the `utcoffset` method, [here](https://github.com/stub42/pytz/blob/master/src/pytz/tzinfo.py#L425), it simply uses that same offset rather than indexing into the stored data with the datetime.
+    Pytz's `tzinfo` objects are intialized with the very first GMT offset of the zone [here](https://github.com/stub42/pytz/blob/master/src/pytz/tzinfo.py#L186-L187). Then in its [implementation] (https://github.com/stub42/pytz/blob/master/src/pytz/tzinfo.py#L425) of the `utcoffset` method, called by the `print` method, it simply uses that same offset rather than indexing into the stored data with the datetime.
