@@ -8,7 +8,6 @@ image:
   caption:  "A mash-up of the Monthly Notices of the Royal Astronomical Society report and a Jupyter notebook."
 date: 2019-05-23
 author: "Scott"
-draft: true
 ---
 
 
