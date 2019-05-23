@@ -1,21 +1,21 @@
-—
+---
 layout: post-with-image
-title: "What the 1884 Royal Astronomical Society Tells Us About Python Today"
+title: "What the Royal Astronomical Society in 1884 Tells Us About Python Today"
 excerpt: "The plainly wrong behavior of a ubiquitous Python library echoes a British astronomical report from 1884."
 image:
   filename: "astronomy-jupyter-pytz.png"
   alt:      "A mash-up of the Monthly Notices of the Royal Astronomical Society report and a Jupyter notebook."
-  caption:  "A mash-up of the Monthly Notices of the Royal Astronomical Society report containing the history of New York City local mean time along with a Jupyter notebook revealing the buggy Python behavior."
+  caption:  "A mash-up of the Monthly Notices of the Royal Astronomical Society report and a Jupyter notebook."
 date: 2019-05-23
 author: "Scott"
 draft: true
-—
+---
 
 
 [pytz](http://pytz.sourceforge.net/) is a ubiquitous library in the Python
 ecosystem for supporting localized datetimes in Python. Without using pytz or
 something like it, there's no way to program around localized datetimes whose
-offset from UTC _varies over time_. More concretely, there's no way to write
+offset from GMT _varies over time_. More concretely, there's no way to write
 daylight saving time-aware programs in Python without a third-party library 
 like pytz.
 
@@ -32,13 +32,14 @@ import pytz
 print(datetime(2019, 5, 21, 12, 30,
                tzinfo=pytz.timezone('America/New_York')))
 ```
-... except that it's actually a buggy program! The printed datetime is
+... except that it's actually a buggy program! More on _why_ it's buggy later on.
+The printed datetime is
 ```
 2019-05-21 12:30:00-04:56
 ```
-That `-04:56` is the UTC offset of the localized time; it says that the
+That `-04:56` is the GMT offset of the localized time; it says that the
 constructed `datetime` object represents 12:30pm on 2019 May 21, which is
-correct, but that this time is 4 hours and 56 minutes behind UTC, which is
+correct, but that this time is 4 hours and 56 minutes behind GMT, which is
 incorrect.
 
 Naturally, we'd expect that offset to be `-4:00`, i.e., Eastern Daylight Time, which is
@@ -47,16 +48,27 @@ Failing that, we might expect it to be `-5:00`, i.e., Eastern Standard (Winter)
 Time. But `-04:56`? _What the heck is that??_
 
 
-Why, that's the longitudinally derived local time of New York City Hall as reported to the Royal Astronomical Society in 1884![^ref]
+Why, that's the longitudinally derived local time of New York City Hall as
+reported to the Royal Astronomical Society in 1884![^ref]
 
 {% capture astrotext %}
-Excerpt from a Royal Astronomical Society report discussing a then-recent conference on standardizing time and longitude. See footnote.
+Excerpt from a Royal Astronomical Society report discussing a then-recent
+conference on standardizing time and longitude. See footnote.
 {% endcapture %}
-{% include image.html filename="royal-astronomy-nyc-time.png" description=astrotext %}
+{% include image.html filename="astronomy-nyc-time.png" description=astrotext %}
 
-The first sentence in the report excerpt above gives the context: the establishment of standard times across the US and Canada for the railway companies to use (though not yet enshrined in US federal policy, that would be in 1918). The newly christened Eastern Time was five hours west of the Greenwich Mean Time that would be agreed upon as the international standard at a conference in DC later in 1884. The local time at New York City Hall was reported to be 3m 58.4s fast (i.e., _east_) of Eastern Time, and therefore -5h for Eastern Time plus 3m 58.4s to correct for NYC yields a UTC offset for NYC of -4h 56m.
+The first sentence in the report excerpt above gives the context: the
+establishment of standard times across the US and Canada for the railway
+companies to use (though not yet enshrined in US federal policy, that would
+be in 1918). The newly christened Eastern Time was five hours west of the
+Greenwich Mean Time that would be agreed upon as the international standard
+at a conference in DC later in 1884. The local time at New York City Hall was
+reported to be 3m 58.4s fast (i.e., _east_) of Eastern Time, and therefore -5h
+for Eastern Time plus 3m 58.4s to correct for NYC yields a GMT offset for NYC
+of -4h 56m.
 
-You can see the assignment of this offset to the `America/New_York` time zone in the IANA tzdb [here](https://github.com/eggert/tz/blob/2019a/northamerica#L321-L335):
+You can see the assignment of this offset to the `America/New_York` time zone
+in the IANA tzdb [here](https://github.com/eggert/tz/blob/2019a/northamerica#L321-L335):
 
 ```
 # From Paul Eggert (2014-09-06):
@@ -70,12 +82,76 @@ You can see the assignment of this offset to the `America/New_York` time zone in
 # Zone	NAME		GMTOFF	RULES	FORMAT	[UNTIL]
 Zone America/New_York	-4:56:02 -	LMT	1883 Nov 18 12:03:58
 			-5:00	US	E%sT	1920
+      <...>
 ```
 
-The last line above says that the offset for this zone is -4h 56m 02s, called the "local mean time" (LMT), up until 1883 Nov 18 12:03:58, which is the NYC local time of when GMT was standardized by US railways (though not yet officially by the federal government). Note that the local time of the change is 3m 58s after noon.[^change]
+The last line above says that the offset for this zone is -4h 56m 02s, called
+the "local mean time" (LMT), up until 1883 Nov 18 12:03:58, which is the NYC
+local time of when GMT was standardized by US railways (though not yet
+officially by the federal government). Note that the local time of the change
+is 3m 58s after noon.[^change]
  
-That helpful comment from the tzdb editor-in-chief above the time zone definition is how I derived the historical context above. 
+That helpful comment from the tzdb editor-in-chief above the time zone
+definition is how I derived the historical context above. I'm not the first
+person to [appreciate](https://blog.jonudell.net/2009/10/23/a-literary-appreciation-of-the-olsonzoneinfotz-database/)
+such commentary in the tz data.
 
-[^ref]: Citation
+Along those lines, there's another curious provenance to the LMT that
+tzdb assigns to a time zone for 19th century dates. If we replace
+`America/New_York` in the Python example with `Europe/London`, we see another
+peculiar GMT offset:
+```
+2019-05-21 12:30:00-00:01
+```
+Given that Greenwich Mean Time is defined as the local time on the longitude
+that passes through the Royal Observatory in Greenwich, a borough of London,
+we would expect the LMT of the `Europe/London` time zone to be pretty close,
+if not simply approximated as the exact same time. Where does this roughly
+-1m offset come from then?
 
-[^change]: The switch to the new standard time zones happened throughout the US at noon local standard time. Then the switch occurred in New York at noon Eastern Standard Time, which, due to the slight time difference, worked out to be 12:03:58 local time. Or at least that's the story we tell (to computers) today.
+Looking at the commentary in the tzdb, one sees
+[the following note](https://github.com/eggert/tz/blob/master/europe#L106-L125)
+from contributor Peter Ilieve:
+> On 17 Jan 1994 the Independent, a UK quality newspaper, had a piece about
+> historical vistas along the Thames in west London. There was a photo
+> and a sketch map showing some of the sightlines involved. One paragraph
+> of the text described [an old stone obelisk marking a forgotten terrestrial
+> meridian used as the basis for celestial calculations of local time. ...]
+>
+> I have a one inch to one mile map of London and my estimate of the stone's
+> position is 51° 28' 30" N, 0° 18' 45" W. The longitude should
+> be within about ±2". [...]
+>
+> [This yields [GMTOFF = -0:01:15](https://github.com/eggert/tz/blob/master/europe#L504) for London LMT in the 18th century.]
+{:.nogray}
+
+Your program could evaluate to a number whose provenance is traced back to
+a hobbyist's estimation of the precise location of "an old stone obelisk"
+based on an old newspaper photograph and a handy map. I believe that's what
+they call in the formal semantics of memory models literature an
+_out-of-thin-air value_.
+
+Back to that buggy pytz code.
+
+It's a fairly common mistake to make. In fact, here's a snapshot of the
+[69 results](https://www.google.com/search?q=%22pytz%22+%22datetime%22++%224:56%22+site:stackoverflow.com)
+Google returns for `"pytz" "datetime" "4:56"` on Stack Overflow:
+
+{% include image.html filename="pytz-456-google-results.png" %}
+
+The bug is even common enough to warrant mention on the pytz website as
+a "gotcha" to avoid. 
+
+
+[^ref]:
+    [Notes on some Points connected with the Progress of Astronomy during the
+    past Year](https://academic.oup.com/mnras/article/44/4/177/1030726),
+    _Monthly Notices of the Royal Astronomical Society_, Volume 44,
+    Issue 4, 8 February 1884, p. 208.
+
+[^change]:
+    The switch to the new standard time zones happened throughout the
+    US at noon local standard time. Then the switch occurred in New York
+    at noon Eastern Standard Time, which, due to the slight time difference,
+    worked out to be 12:03:58 local time. Or at least that's the story we
+    tell (to computers, via tzdb) today.

@@ -33,6 +33,11 @@
     margin-right: auto;
   }
 
+  &-image img {
+    max-width: 75%;
+    border: .25rem solid $grey-2;
+  }
+
   p {
     margin: 0 0 1rem;
     text-align: justify;
@@ -72,6 +77,11 @@
     margin-bottom: 2rem;
   }
 
+  figure img {
+    max-width: 75%;
+    border: .25rem solid $grey-2;
+  }
+
   figcaption {
     color: $default-tint;
     display: block;
@@ -88,6 +98,6 @@
   .footnotes {
     margin-top: 4rem;
     font-size: 0.9rem;
-    color: $grey-1;
+    color: $grey-0;
   }
 }
