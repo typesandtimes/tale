@@ -16,7 +16,7 @@ ecosystem for supporting localized datetimes in Python. Without using pytz or
 something like it, there's no way to program around localized datetimes whose
 offset from GMT _varies over time_. More concretely, there's no way to write
 daylight saving time-aware programs in Python without a third-party library 
-like pytz.
+like pytz. (Spoiler alert: you shouldn't use pytz at all though; keep reading.)
 
 To support this functionality, pytz constructs `tzinfo` objects (Python's
 weak abstraction for time zones) that load the definitions from the
