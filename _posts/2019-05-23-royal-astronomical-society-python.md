@@ -165,7 +165,7 @@ Your program could evaluate to a number whose provenance is traced back to
 a hobbyist's estimation of the precise location of "an old stone obelisk"
 based on an old newspaper photograph and a handy map. I believe that's what
 they call in the formal semantics of memory models literature an
-_out-of-thin-air value_.
+[_out-of-thin-air value_](https://www.cl.cam.ac.uk/~pes20/cpp/notes42.html).
 
 
 [^ref]:
@@ -182,7 +182,16 @@ _out-of-thin-air value_.
     tell (to computers, via tzdb) today.
     
 [^dst]:
-    Technically, it picks put the Eastern Standard Time offset of -5h, but along with [that offset](https://github.com/eggert/tz/blob/2019a/northamerica#L339) comes the `US` daylight saving time rule. [That rule](https://github.com/eggert/tz/blob/2019a/northamerica#L162) then says that the datetime falls within a DST period and so 1h should be added to the offset, resulting in -4h.
+    Technically, it picks put the Eastern Standard Time offset of -5h, but
+    along with [that offset](https://github.com/eggert/tz/blob/2019a/northamerica#L339)
+    comes the `US` daylight saving time rule.
+    [That rule](https://github.com/eggert/tz/blob/2019a/northamerica#L162)
+    then says that the datetime falls within a DST period and so 1h should
+    be added to the offset, resulting in -4h.
     
 [^pytzcode]:
-    Pytz's `tzinfo` objects are intialized with the very first GMT offset of the zone [here](https://github.com/stub42/pytz/blob/release_2019.1/src/pytz/tzinfo.py#L186-L187). Then in its [implementation](https://github.com/stub42/pytz/blob/release_2019.1/src/pytz/tzinfo.py#L425) of the `utcoffset` method, called by the `print` method, it simply uses that same offset rather than indexing into the stored data with the datetime.
+    Pytz's `tzinfo` objects are intialized with the very first GMT offset of
+    the zone [here](https://github.com/stub42/pytz/blob/release_2019.1/src/pytz/tzinfo.py#L186-L187).
+    Then in its [implementation](https://github.com/stub42/pytz/blob/release_2019.1/src/pytz/tzinfo.py#L425)
+    of the `utcoffset` method, called by the `print` method, it simply uses
+    that same offset rather than indexing into the stored data with the datetime.
