@@ -122,8 +122,8 @@ _you [should not use pytz](https://blog.ganssle.io/articles/2018/03/pytz-fastest
 for localized datetimes in Python today!_ Instead,
 check out the much more reasonable, drop-in behavior of time zone objects in the
 [`dateutil`](https://dateutil.readthedocs.io/en/stable/) library. It's also more
-actively maintained, now by Paul Ganssle, who is additionally [advising the
-Python Software Foundation](http://pyfound.blogspot.com/2019/05/paul-ganssle-time-zones-in-standard.html)
+actively maintained, now by Paul Ganssle, who has been [advising the
+Python community](http://pyfound.blogspot.com/2019/05/paul-ganssle-time-zones-in-standard.html)
 on how to integrate time zones into the Python standard library.
 
 * * *
