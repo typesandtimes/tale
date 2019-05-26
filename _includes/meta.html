@@ -9,9 +9,9 @@
 {%- capture image_url -%}
 {%- if page.image -%}
   {%- if page.image.first -%}
-    {{ "/assets/img/" | append: page.image.filename | absolute_url }}
+    {{ "/assets/img" | append: page.image.filename | absolute_url }}
   {%- else -%}
-    {{ "/assets/img/" | append: page.image | absolute_url }}
+    {{ "/assets/img" | append: page.image | absolute_url }}
   {%- endif -%}
 {%- endif -%}
 {%- endcapture -%}
@@ -34,7 +34,7 @@
 
 <!-- twitter card -->
 <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
-<meta name="twitter:site" content="{{ site.twitter_username }}">
+<meta name="twitter:site" content="{{ site.author.twitter }}">
 <meta name="twitter:creator" content="{{ site.author.twitter }}">
 <meta name="twitter:title" content="{{ page_title | escape }}">
 <meta name="twitter:description" content="{{ page_description | escape }}">
