@@ -33,21 +33,23 @@ When asked whether 2020 marks a new decade, people fall into two camps, which I'
 
 * The Ordinals, on the other hand, answer _no, for decades are identified by ordinal numbers counted in sequence from the beginning_. The current decade, the 202nd (or the 2nd of the 21st century), includes the years 2011 through 2020, while the next decade, the 203rd, will include the years 2021 through 2030.
 
-Okay, so there are [two camps](https://pbfcomics.com/comics/skub/), but which one is right?
+These two camps are both so rational and natural that a person in one camp might deny the very existence of the other. Not since 2015 -- is that still this decade? -- and "[the dress](https://en.wikipedia.org/wiki/The_dress)" have two camps formed so resolutely online. Are they not both completely legitimate ways to count off the decades? Let's evaluate these camps as applied to another periodization: centuries.
 
-## Authori
+To count centuries, the Digitals would say that we're in _the 2000s_ ("two thousands"), running from 2000 to 2099, and last we were in _the 1900s_ ("nineteen hundreds"), running from 1900 to 1999. Surely one cannot deny the legitimacy of referring to centuries as such. The Ordinals, on the other hand, would say that we're in the _the 21st century_, running from 2001 to 2100, and last we were in _the 20th century_, running from 1901 to 2000.
 
+At the level of centuries, this debate has raged for... centuries, most notably the transition from 19th to 20th centuries. On one side stood the Wellesley College president, Kaiser Wilhelm of Germany, and newspaper owners; on the other stood Pope Leo XIII, Czar Nicholas of Russia, and other newspaper owners.
 
-
-
-
-
+Stephen Jay Gould deemed the debate to be one between high culture on one side -- the scholarly mantle of Ordinals -- and low culture on the other -- the common-sense laurels of Cardinals. 
 
 
+{% capture dialogue %}
+A presentation of two year counting methods in <em>Literary Digest</em>, Vol. 19, No. 27, <a href="https://archive.org/details/literarydigest19newy/page/798" title="Literary Digest dialogue about counting years">p. 799</a>.
+{% endcapture %}
+{% include image.html filename="decade/literary-digest-1899-dialogue.png" description=dialogue %}
 
 
-
-Once 
-
-https://en.wikipedia.org/wiki/The_dress
-
+* Discuss the historical debate about counting centuries.
+* Discuss why decades are different.
+* Provide the ISO 8601 vs. decennial census standardizations.
+* Provide the Tribune discussion on decades and centuries.
+* Conclusively weigh in.
