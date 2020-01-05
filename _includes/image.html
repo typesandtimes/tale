@@ -1,4 +1,4 @@
-<figure class="image">
+<figure class="image"{% if include.style %} style="{{include.style}}"{% endif %}>
   <a href="{{ "/assets/img/" | append: include.filename | absolute_url }}">
   <img src="{{ "/assets/img/" | append: include.filename | absolute_url }}" alt="{{ include.description | strip_html }}">
   </a>
