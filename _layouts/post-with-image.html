@@ -26,7 +26,10 @@ layout: default
   <div class="post-line"></div>
 
   <div class="post-image"{% if page.image.style %} style="{{ page.image.style }}"{% endif %}>
-    <p><a href="{{ "/assets/img/" | append: page.image.filename | absolute_url }}"><img src="{{ "/assets/img/" | append: page.image.filename | absolute_url }}" alt="{{page.image.alt}}" /></a>
+    <p>
+      <a href="{{ "/assets/img/" | append: page.image.filename | absolute_url }}" title="{{page.image.alt}}">
+        <img src="{{ "/assets/img/" | append: page.image.filename | absolute_url }}" alt="{{page.image.alt}}"{% if page.image.img_style %} style="{{ page.image.img_style }}"{% endif %} />
+      </a>
     <em>{{page.image.caption}}</em></p>
   </div>
 

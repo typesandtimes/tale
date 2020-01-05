@@ -1,4 +1,4 @@
-<figure class="two_images"{% if include.style %} style="{{include.style}}"{% endif %}>
+<figure class="three_images"{% if include.style %} style="{{include.style}}"{% endif %}>
   <span>
     <a href="{{ "/assets/img/" | append: include.filename1 | absolute_url }}">
     <img src="{{ "/assets/img/" | append: include.filename1 | absolute_url }}" alt="{{ include.description1 | strip_html }}">
@@ -7,6 +7,11 @@
   <span>
     <a href="{{ "/assets/img/" | append: include.filename2 | absolute_url }}">
     <img src="{{ "/assets/img/" | append: include.filename2 | absolute_url }}" alt="{{ include.description2 | strip_html }}">
+    </a>
+  </span>
+  <span>
+    <a href="{{ "/assets/img/" | append: include.filename3 | absolute_url }}">
+    <img src="{{ "/assets/img/" | append: include.filename3 | absolute_url }}" alt="{{ include.description3 | strip_html }}">
     </a>
   </span>
   <figcaption>{{ include.caption }}</figcaption>

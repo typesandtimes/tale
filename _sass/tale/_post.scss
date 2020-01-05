@@ -75,11 +75,26 @@
   figure {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   figure img {
     max-width: 75%;
     border: .25rem solid $grey-2;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  figure a:hover {
+    text-decoration: none;
+  }
+
+  figure.two_images img {
+    max-width: 37%;
+  }
+
+  figure.three_images img {
+    max-width: 24%;
   }
 
   figcaption {
@@ -88,7 +103,6 @@
     font-family: $sans-serif;
     font-size: 0.9rem;
     font-style: normal;
-    text-align: center;
   }
 
   blockquote.nogray {
