@@ -60,8 +60,9 @@ Three example articles across the centuries. De Laisement's "Dissertation sur le
 {% endcapture %}
 {% include three_images.html filename1="decade/delaisement-dissertation-first-page.png" filename2="decade/times-london-1799-the-next-century.png" filename3="decade/tennesseean-1900-century-not-ended.png" caption=three_articles_caption %}
 
-On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilhelm II of Germany,[^kaiser] the Wellesley College president, and --- most importantly --- the common man.
+On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilhelm II of Germany,[^kaiser] the Wellesley College president,[^colleges] and --- most importantly --- the common man. One such common man articulated his position on the "great secular event" of the turn of the century as a populist backlash to "the abacists":
 
+> Shall we wait now a whole year for 1901, at the behest of the abacists? No, we will not pass over the significant year 1900, which is stamped with the great secular change, but with cheers we will welcome it and the new century. The 1900 men, who compose the vast majority of the people, say to their opponents: 'We freely admit that the century you have in your mind, the artificial century, begins in 1901, but the natural century (which we prefer) begins in 1900.'[^abacists]
 
 
 
@@ -107,3 +108,8 @@ A presentation of two year counting methods in <em>Literary Digest</em>, Vol. 19
 	
 	The Kaiser's response: "am 1. Januar 1899," a [telegraphic typo](https://www.faz.net/aktuell/feuilleton/buecher/rezension-sachbuch-der-grosse-fruehjahrsputz-der-welt-11312316.html?printPagedArticle=true#pageIndex_2) according to Richard Kämmerlings in the German FAZ newspaper.
 
+[^colleges]:
+    At the end of 1899 the Boston Herald asked an array of college presidents to conclusivey determine the year that begins the 20th century. In the December 10th issue they published the results in a huge spread, along with a history of calendar systems. Colleges whose presidents or other professors correctly said 1901: Princeton, Cornell, Columbia, Penn, Vassar, Bowdoin, Dartmouth, Brown, Yale, Harvard, and Chicago. Those who incorrectly answered 1900: Wellesley, Tufts, and Smith. Elsewhere the New York Tribune editor writes of the 1900 error: "This notion has about disappeared, however, before the gaze of calm eyed mathematics. The only persons of prominence who ever held it were the president of Wellesley College and the German Emperor" (12 December 1899, "[La Fin de Siecle](https://www.newspapers.com/image/206532828/?terms=wellesley)").
+
+[^abacists]:
+    Neal H. Ewing, quoted in "[The Natural Century](https://books.google.com/books?id=hS1LAQAAMAAJ&pg=PA62&lpg=PA62&dq=%22the+centurial+figures+are+the+symbol%22&source=bl&ots=293RC9I4c9&sig=ACfU3U2_s9Np82aD3fVL_FQps1Sq44ayzw&hl=en&sa=X&ved=2ahUKEwjws8mRre3mAhWIVN8KHTfaBH8Q6AEwAHoECAYQAQ#v=onepage&q=%22the%20centurial%20figures%20are%20the%20symbol%22&f=false)," _The American Architect and Building News_, Volume 65, 1899, pg. 62.
