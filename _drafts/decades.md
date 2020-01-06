@@ -48,17 +48,30 @@ To count centuries, the Digitals would say that we're in _the 2000s_, running fr
 	description1=""
 	filename2="decade/boston-herald-1899-12-10-enumeration.png"
 	description2=""
-	caption="A reader's table showing how to count a decade in the 31 December 1899 Washington Post, and an enumeration by the Provost of University of Pennsylvania in the 10 December 1899 Boston Herald." %}
+	caption="A reader's table showing how to count a decade in the 31 December 1899 _Washington Post_, and an enumeration by the Provost of University of Pennsylvania in the 10 December 1899 _Boston Herald_ ([footnote 6](#fn:colleges))." %}
 
 At the level of centuries, this debate has raged for... centuries, most notably the transition from 19th to 20th centuries. Stephen Jay Gould deemed the debate to be one between "high culture" on one side --- the scholarly mantle of Ordinals --- and "vernacular culture" on the other --- the common-sense laurels of Cardinals, most notably expressed in the 1890s.[^gouldculture]
 A century later, he remarks, it would be Arthur C. Clarke's _2001_ vs. Prince's _1999_.
 
+{% capture german_song %}
+Have you wondered whether we've started a new decade as much as this person? "[Wann fängt das XIX. Jahrhundert an?](https://books.google.com/books?id=tRVDAAAAcAAJ&pg=PA857&lpg=PA857&dq=%22Wann+fangt+das+XIX.+Jahrhundert+an?%22&source=bl&ots=rn7HjVD-2F&sig=ACfU3U3D1TvWV04VyzhSD1mx9GH6xczr_Q&hl=en&sa=X&ved=2ahUKEwi44ZLTi-nmAhXjV98KHWmHC2QQ6AEwA3oECAQQAQ#v=onepage&q=%22Wann%20fangt%20das%20XIX.%20Jahrhundert%20an%3F%22&f=false)" ("When Does the 19th Century Begin?") _Allgemeine musikalische Zeitung_, 18 September 1799.
+{% endcapture %}
+{% include image.html
+	img_style="width: 50%;"
+	filename="decade/german-music.png"
+	description=german_song
+	figcaption_style="width: 600px;" %}
+
 On the side of high culture, insisting that centuries begin in the `01` years, stood Pope Leo XIII,[^popeaddress] astronomers going back centuries,[^loc] and many newspaper editors. They even recognized the distinction as one between cardinal and ordinal numbers, going back at least to 1699.[^delaisement]
 
 {% capture three_articles_caption %}
-Three example articles across the centuries. De Laisement's "Dissertation sur le commencement du siècle prochain" (1699), <em>The London Times</em> (1799), and <em>The Nashville American</em> (1899).
+Three example articles across the centuries. De Laisement's "Dissertation sur le commencement du siècle prochain" ([1699](#fn:delaisement)), _The London Times_ (26 December 1799), and _The Nashville American_ (4 January 1899).
 {% endcapture %}
-{% include three_images.html filename1="decade/delaisement-dissertation-first-page.png" filename2="decade/times-london-1799-the-next-century.png" filename3="decade/tennesseean-1900-century-not-ended.png" caption=three_articles_caption %}
+{% include three_images.html
+	filename1="decade/delaisement-dissertation-first-page.png"
+	filename2="decade/times-london-1799-the-next-century.png"
+	filename3="decade/tennesseean-1900-century-not-ended.png"
+	caption=three_articles_caption %}
 
 On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilhelm II of Germany,[^kaiser] the Wellesley College president,[^colleges] and --- most importantly --- the common man. One such common man articulated his position on the "great secular event" of the turn of the century as a populist backlash to "the abacists":
 
@@ -67,11 +80,12 @@ On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilh
 
 
 
-
+{::comment}
 {% capture dialogue %}
 A presentation of two year counting methods in <em>Literary Digest</em>, Vol. 19, No. 27, <a href="https://archive.org/details/literarydigest19newy/page/798" title="Literary Digest dialogue about counting years">p. 799</a>.
 {% endcapture %}
 {% include image.html filename="decade/literary-digest-1899-dialogue.png" description=dialogue %}
+{:/comment}
 
 
 * Discuss the historical debate about counting centuries.
@@ -109,7 +123,7 @@ A presentation of two year counting methods in <em>Literary Digest</em>, Vol. 19
 	The Kaiser's response: "am 1. Januar 1899," a [telegraphic typo](https://www.faz.net/aktuell/feuilleton/buecher/rezension-sachbuch-der-grosse-fruehjahrsputz-der-welt-11312316.html?printPagedArticle=true#pageIndex_2) according to Richard Kämmerlings in the German FAZ newspaper.
 
 [^colleges]:
-    At the end of 1899 the Boston Herald asked an array of college presidents to conclusivey determine the year that begins the 20th century. In the December 10th issue they published the results in a huge spread, along with a history of calendar systems. Colleges whose presidents or other professors correctly said 1901: Princeton, Cornell, Columbia, Penn, Vassar, Bowdoin, Dartmouth, Brown, Yale, Harvard, and Chicago. Those who incorrectly answered 1900: Wellesley, Tufts, and Smith. Elsewhere the New York Tribune editor writes of the 1900 error: "This notion has about disappeared, however, before the gaze of calm eyed mathematics. The only persons of prominence who ever held it were the president of Wellesley College and the German Emperor" (12 December 1899, "[La Fin de Siecle](https://www.newspapers.com/image/206532828/?terms=wellesley)").
+    At the end of 1899 the Boston Herald asked an array of college presidents to conclusivey determine the year that begins the 20th century. In [the December 10th issue](/assets/img/decade/Boston_Herald_published_as_THE_SUNDAY_HERALD.___December_10_1899.pdf) they published the results in a huge spread, along with a history of calendar systems. Colleges whose presidents or other professors correctly said 1901: Princeton, Cornell, Columbia, Penn, Vassar, Bowdoin, Dartmouth, Brown, Yale, Harvard, and Chicago. Those who incorrectly answered 1900: Wellesley, Tufts, and Smith. Elsewhere the New York Tribune editor writes of the 1900 error: "This notion has about disappeared, however, before the gaze of calm eyed mathematics. The only persons of prominence who ever held it were the president of Wellesley College and the German Emperor" (12 December 1899, "[La Fin de Siecle](https://www.newspapers.com/image/206532828/?terms=wellesley)," pg. 6).
 
 [^abacists]:
     Neal H. Ewing, quoted in "[The Natural Century](https://books.google.com/books?id=hS1LAQAAMAAJ&pg=PA62&lpg=PA62&dq=%22the+centurial+figures+are+the+symbol%22&source=bl&ots=293RC9I4c9&sig=ACfU3U2_s9Np82aD3fVL_FQps1Sq44ayzw&hl=en&sa=X&ved=2ahUKEwjws8mRre3mAhWIVN8KHTfaBH8Q6AEwAHoECAYQAQ#v=onepage&q=%22the%20centurial%20figures%20are%20the%20symbol%22&f=false)," _The American Architect and Building News_, Volume 65, 1899, pg. 62.

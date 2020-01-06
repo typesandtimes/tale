@@ -1,6 +1,6 @@
 <figure class="image"{% if include.style %} style="{{include.style}}"{% endif %}>
   <a href="{{ "/assets/img/" | append: include.filename | absolute_url }}">
-  <img src="{{ "/assets/img/" | append: include.filename | absolute_url }}" alt="{{ include.description | strip_html }}">
+  <img{% if include.img_style %} style="{{include.img_style}}"{% endif %} src="{{ "/assets/img/" | append: include.filename | absolute_url }}" alt="{{ include.description | escape | strip_html }}">
   </a>
-  <figcaption>{{ include.description }}</figcaption>
+  <figcaption{% if include.figcaption_style %} style="{{include.figcaption_style}}"{% endif %}>{{ include.description | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
 </figure>

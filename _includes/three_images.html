@@ -14,5 +14,5 @@
     <img src="{{ "/assets/img/" | append: include.filename3 | absolute_url }}" alt="{{ include.description3 | strip_html }}">
     </a>
   </span>
-  <figcaption>{{ include.caption }}</figcaption>
+  <figcaption{% if include.figcaption_style %} style="{{include.figcaption_style}}"{% endif %}>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
 </figure>
