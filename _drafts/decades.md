@@ -1,13 +1,13 @@
 ---
 layout: post-with-image
-title: "2020 and Decennial Discontinuity"
-excerpt: "Does 2020 begin a new decade? To answer this question we must consult the pope, the Czar, the Kaiser, the census, and ISO 8601."
+title: "2020 and the Decade Dilemma"
+excerpt: "Does 2020 begin a new decade? To answer this question we must consult the pope, the Kaiser, the census, a hockey player, and ISO 8601."
 image:
   filename:  "decade/new-century-cartoon.jpg"
   alt:       "Illustration on the front page of the 1 January 1901 issue of The Washington Times."
 
 date: 2020-01-01
-author: "Scott"
+author: "Scott Kilpatrick"
 ---
 
 A new year in the Common Era has arrived, surely to inundate us all with visual acuity puns. But has _a new decade_ also arrived?
@@ -75,9 +75,11 @@ Three example articles across the centuries. De Laisement's "Dissertation sur le
 
 On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilhelm II of Germany,[^kaiser] the Wellesley College president,[^colleges] and --- most importantly --- the common man. One such common man articulated his position on the "great secular event" of the turn of the century as a populist backlash to "the abacists":
 
-> Shall we wait now a whole year for 1901, at the behest of the abacists? No, we will not pass over the significant year 1900, which is stamped with the great secular change, but with cheers we will welcome it and the new century. The 1900 men, who compose the vast majority of the people, say to their opponents: 'We freely admit that the century you have in your mind, the artificial century, begins in 1901, but the natural century (which we prefer) begins in 1900.'[^abacists]
+> Shall we wait now a whole year for 1901, at the behest of the abacists? No, we will not pass over the significant year 1900, which is stamped with the great secular change, but with cheers we will welcome it and the new century. The 1900 men, who compose the vast majority of the people, say to their opponents: "We freely admit that the century you have in your mind, the artificial century, begins in 1901, but the natural century (which we prefer) begins in 1900."[^abacists]
 
+In the end, with the intelligentsia on their side the Ordinals won the debate on centuries, as long as the ordinally-specified phrase "the __th century" remains the common expression for centurial periods of history. Then do they also win the debate on decades?
 
+Without the grandeur of a century, the decade question has prompted far less (serious) debate. The decade, as a periodization of history, is a fairly recent concept; the conventions around centuries don't necessarily apply to decades. 
 
 
 {::comment}
@@ -86,6 +88,18 @@ A presentation of two year counting methods in <em>Literary Digest</em>, Vol. 19
 {% endcapture %}
 {% include image.html filename="decade/literary-digest-1899-dialogue.png" description=dialogue %}
 {:/comment}
+
+Smith:
+* the 1920s was "the first decade truly to legitimate a ten-year span of time as a historic category."
+* "Allen employed the decade as a device to organize and to describe culturally shared events, rather than treating it as an arbitrarily strict unit of historic time."
+* "A rising sense of generational self-awareness, the perceived acceleration of time, a sense of the new, combined with a growing identification between the forces of youth culture and the phenomenon of cultural rebirth, replaced the linear, progressive conception of time that had dominated the thinking of much of the nineteenth century."
+* "Decades are not a function of calendar time," states Newsweek journalist Bill Barol. "They are trends, values, and associations, bundled up and tied together in the national memory."
+* "Periodizing history via the decade is just one example of a broader tendency in American culture, the process of 'disremembering the past while historicizing the present.' The decade contributes to an abbreviated historical attention span---cause and effect are confused, and the record of the past is reduced to a 'progression of cultural styles.'"
+* NYT article: "What's in a decade, anyway? And how is it that this arbitrary and slim crosscutting of time, a mere 10 years, has grown and flourished to the point that we all walk around in a self-conscious haze about what a new decade represents even before the previous one has tolled its last?"
+
+
+
+
 
 
 * Discuss the historical debate about counting centuries.
