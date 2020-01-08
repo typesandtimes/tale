@@ -25,11 +25,10 @@ Instead, in true postmodern fashion, people must hash out their own understandin
 
 Some might recall similar questions about the true beginning of the new millennium: the first of January, but 2000 or 2001? Paleontologist and public intellectual Stephen Jay Gould wrote his 1997 book _[Questioning the Millennium](https://www.hup.harvard.edu/catalog.php?isbn=9780674061644)_ on precisely this question, filling its pages with historical and pop culture debates. (Spoiler alert: it was 2001.)
 
-Less grandiose but more rife with historical evidence is the century question: do centuries begin in years ending with `00` or with `01`? The end of the 20th century, _[la fin de siècle](https://en.wikipedia.org/wiki/Fin_de_si%C3%A8cle)_ as it was known in France and in high culture, garnered tremendous attention worldwide. Philosophers, intellectuals, journalists, emperors, and popes all debated and ruled on the exact beginning of the 20th century, their efforts published for mass audiences in the world's newspapers. In response, where today we have social media, back then they had letters to the editor.
+Less grandiose but more rife with historical evidence is the century question: do centuries begin in years ending with `00` or with `01`? The end of the 19th century, _[la fin de siècle](https://en.wikipedia.org/wiki/Fin_de_si%C3%A8cle)_ as it was known in France and in high culture, garnered tremendous attention worldwide. Philosophers, intellectuals, journalists, emperors, and popes all debated and ruled on the exact beginning of the 20th century, their efforts published for mass audiences in the world's newspapers. In response, where today we have social media, back then they had letters to the editor.
 
-And then finally there's the decade question. A millennium is grandiose. A century is once in a lifetime. But a decade? That's pedestrian. Indeed, among these three different periodizations of history, the decade stands alone as a 20th-century concept with largely cultural definition.
-
-
+And then finally there's the decade question. A millennium is grandiose. A century is once in a lifetime. But a decade? That's pedestrian. Indeed, among these three periodizations of history, the decade stands alone as being primarily cultural in nature. 
+"Decades are not a function of calendar time," states Newsweek journalist Bill Barol. "They are trends, values, and associations, bundled up and tied together in the national memory."
 
 * * *
 
@@ -79,7 +78,13 @@ On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilh
 
 In the end, with the intelligentsia on their side the Ordinals won the debate on centuries, as long as the ordinally-specified phrase "the __th century" remains the common expression for centurial periods of history. Then do they also win the debate on decades?
 
-Without the grandeur of a century, the decade question has prompted far less (serious) debate. The decade, as a periodization of history, is a fairly recent concept; the conventions around centuries don't necessarily apply to decades. 
+* * *
+
+Without the grandeur of a century, the decade question has prompted far less (serious) debate. The decade, as a periodization of history, is a fairly recent concept. In the 1940s historian Marc Bloch had already warned against the "insidious" practice of periodizing by centuries. "We no longer name ages after their heroes. We very prudently number them in sequence every hundred years, starting from a point fixed, once and for all, at the year 1 of the Christian era. [...] Unfortunately, no law of history enjoins that only those years whose dates end with the figures '01' coincide with the critical points of human evolution."
+
+If centurial thinking already had "no rational basis," what about the decade? Warren Susman criticized it as "a special and perhaps characteristically American way of seeing the past: as a series of decades that fit neatly into limits imposed by man-made calendars." Jason Scott Smith, in his 1997 article "The Strange History of the Decade," traces the history of the decade in primarily American, primarily cultural thought. "The decade contributes to an abbreviated historical attention span---cause and effect are confused, and the record of the past is reduced to a 'progression of cultural styles.'" When did this begin? According to Smith, oweing to the World War, to global revolutions of technology and politics, and to a subsequent decade full of nostalgia, the 1920s were "the first decade truly to legitimate a ten-year span of time as a historic category."
+
+
 
 
 {::comment}
