@@ -41,11 +41,29 @@ ISO 8601 even defines a new standard calendar adapted from the Gregorian calenda
 
 Indeed, decades, as defined in ISO 8601, are the years `XXX0` through `XXX9`.[^iso8601decade] For example, using `J` to denote decades, "the 2020s" are represented as `202J`; the "zero decade" is represented as `0J`; and "the negative zero decade," meaning years -9 through 0, is represented as `-0J`. Somewhat strangely, the latter two decades both include year 0. As a consequence, ISO 8601 _really_ rejects the Ordinals since decades no longer describe an ordered, mutually exclusive sequence of spans of ten years.
 
+ISO 8601 is firmly in the camp of the Cardinals.
 
 
 
 # In the Other Corner, the Wonks
 
+Not everyone finds ISO 8601 to be all that authoritative. But what about the European Union? Okay, maybe not the English, but what about their own government as well? And even the Americas? Although governments of nation states don't generally have reason to weigh in on the exact definitions of time, they do tend to institutionalize the decade in particular---as the period in which the government conducts a census.
+
+The practice of conducting a population census by state authorities goes back to ancient times; the decennial period --- once a decade --- became convention more recently. For those states that conduct them decennially, surely they must spell out the precise formal interpretation of decades, right?
+
+Recent legislation in the European Union does exactly that. In its standardization of population and housing census methodology for member states, the EU specifies that member nations run a census "every decade" on a "reference date" of their choosing. "The first reference year shall be 2011. [...] Reference years shall fall during the beginning of every decade." In other words, the `1` years begin the decades and therefore the EU implicitly takes up the Ordinal position.
+
+For the United States in particular, it's even [in our Constitution](https://www.census.gov/history/pdf/Article_1_Section_2.pdf) to apportion Congressional representatives according to state populations counted "every subsequent Term of ten Years," though the period of "decade" is not used. In the New York state constitution, however, not only is "decade" mentioned (also for apportionment of representatives), but its exact year bounds are explicitly clarified:
+
+> ... if, in any decade, counting from and including that which begins with the year
+> nineteen hundred thirty-one, such a readjustment or alteration is not made at the time
+> above prescribed, it shall be made at a subsequent session occurring not later than the
+> sixth year of such decade, meaning not later than nineteen hundred thirty-six,
+> nineteen hundred forty-six, nineteen hundred fifty-six, and so on ...[^ny]
+
+Between the mention of 1931 as the beginning of a decade and the mention of 1936 as the sixth year of the decade, the New York constitution clearly takes the Ordinal position.
+
+Elsewhere, back to the whole US, the legal language around the decennial census itself does not seem to mention "decade" anywhere, not in any historic iteration of the Census Act and, surprisingly, not in the [US Code TItle 13](https://www.law.cornell.edu/uscode/text/13) that characterizes the census process.
 
 
 * Give ISO definition
@@ -222,3 +240,6 @@ In terms of the ISO 8601 standard, that's the distinction between _decades_ (as 
 
 [^iso8601century]:
 	For the definition of centuries, see ISO 8601-1:2019, Section 4.3.12, and extended definitions in Part 2, ISO 8601-2:2019, Sections 4.3.6 and 4.4.1.8. For example, the 21st century, "the 2000s," is represented as `20C`, and like with decades, there are zero (`0C`) and negative zero (`-0C`) centuries that both contain year 0.
+
+[^ny]:
+	_[New York State Constitution](https://www.dos.ny.gov/info/constitution.htm)_, Article III, Section 4.
