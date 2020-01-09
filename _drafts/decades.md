@@ -1,6 +1,6 @@
 ---
 layout: post-with-image
-title: "2020 and the Decade Dilemma"
+title: "How to Periodize History: 2020 and the Decade Dilemma"
 excerpt: "Does 2020 begin a new decade? To answer this question we must consult the pope, the Kaiser, the census, a hockey player, and ISO 8601."
 image:
   filename:  "decade/new-century-cartoon-boomer.jpg"
@@ -16,30 +16,10 @@ The question has percolated through the loud void of social media, reverberating
 
 {% include image.html filename="decade/when-new-decade-begins.png" description="Altered headline of the December 10, 1899 Boston Herald." %}
 
-In an earlier time, the Pope himself might have served as just such an authority. After all, our calendar isn't called "[Gregorian](https://en.wikipedia.org/wiki/Pope_Gregory_XIII)" for nothing. What we're missing is a _formal standardization_ for the concept of the decade. To borrow the visual acuity pun, [20/20](https://www.aoa.org/patients-and-public/eye-and-vision-problems/glossary-of-eye-and-vision-conditions/visual-acuity) enjoys [formal standardization](http://www.icoph.org/dynamic/attachments/resources/icovisualacuity1984.pdf) by the International Council of Ophthalmology while 2020 enjoys no such thing, at least not one with the clout to bring an authoritative answer.
-
-Instead, in true postmodern fashion, people must hash out their own understanding of the decade question without any authoritative answer, or perhaps, with all too many authoritative answers. Recent articles on the subject have consulted [meteorological associations](https://www.forbes.com/sites/marshallshepherd/2020/01/01/is-2020-the-start-of-a-new-decadea-human-technical-and-climate-perspective/#18ed2fd3ee2f), [philosophy professors](https://www.usatoday.com/story/news/nation/2019/12/10/2020-start-new-decade-some-say-thats-not-until-2021/4366467002/), and [the United States Naval Observatory](https://www.nytimes.com/2019/11/28/us/what-is-decade.html).
+In an earlier time, the Pope himself might have served as just such an authority. After all, our calendar isn't called "[Gregorian](https://en.wikipedia.org/wiki/Gregorian_calendar)" for nothing; [Pope Gregory XIII]((https://en.wikipedia.org/wiki/Pope_Gregory_XIII)) commissioned it in the 16th century. But today, in true postmodern fashion, people must hash out their own understanding of the decade question without any authoritative answer, or perhaps, with all too many authoritative answers. Recent articles on the subject have consulted [meteorological associations](https://www.forbes.com/sites/marshallshepherd/2020/01/01/is-2020-the-start-of-a-new-decadea-human-technical-and-climate-perspective/#18ed2fd3ee2f), [philosophy professors](https://www.usatoday.com/story/news/nation/2019/12/10/2020-start-new-decade-some-say-thats-not-until-2021/4366467002/), and [the United States Naval Observatory](https://www.nytimes.com/2019/11/28/us/what-is-decade.html).
 
 
-
-
-Some might recall similar questions about the true beginning of the new millennium: the first of January, but 2000 or 2001? Paleontologist and public intellectual Stephen Jay Gould wrote his 1997 book _[Questioning the Millennium](https://www.hup.harvard.edu/catalog.php?isbn=9780674061644)_ on precisely this question, filling its pages with historical and pop culture debates. (Spoiler alert: it was 2001.)
-
-Less grandiose but more rife with historical evidence is the century question: do centuries begin in years ending with `00` or with `01`? The end of the 19th century, _[la fin de siècle](https://en.wikipedia.org/wiki/Fin_de_si%C3%A8cle)_ as it was known in France and in high culture, garnered tremendous attention worldwide. Philosophers, intellectuals, journalists, emperors, and popes all debated and ruled on the exact beginning of the 20th century, their efforts published for mass audiences in the world's newspapers. In response, where today we have social media, back then they had letters to the editor.
-
-{% capture german_song %}
-Have you wondered whether we've started a new decade as much as this person? "[Wann fängt das XIX. Jahrhundert an?](https://books.google.com/books?id=tRVDAAAAcAAJ&pg=PA857&lpg=PA857&dq=%22Wann+fangt+das+XIX.+Jahrhundert+an?%22&source=bl&ots=rn7HjVD-2F&sig=ACfU3U3D1TvWV04VyzhSD1mx9GH6xczr_Q&hl=en&sa=X&ved=2ahUKEwi44ZLTi-nmAhXjV98KHWmHC2QQ6AEwA3oECAQQAQ#v=onepage&q=%22Wann%20fangt%20das%20XIX.%20Jahrhundert%20an%3F%22&f=false)" ("When Does the 19th Century Begin?") _Allgemeine musikalische Zeitung_, 18 September 1799.
-{% endcapture %}
-{% include image.html
-	img_style="width: 50%;"
-	filename="decade/german-music.png"
-	description=german_song
-	figcaption_style="width: 600px;" %}
-
-And then finally there's the decade question. A millennium is grandiose. A century is once in a lifetime. But a decade? That's pedestrian. Indeed, among these three periodizations of history, the decade stands alone as being primarily cultural in nature. 
-"Decades are not a function of calendar time," states Newsweek journalist Bill Barol. "They are trends, values, and associations, bundled up and tied together in the national memory."[^newsweek]
-
-# The Two Camps
+# The Two Camps of Counting
 
 When asked whether 2020 marks a new decade, people fall into two camps, which I'll call the _Cardinals_ and the _Ordinals_.
 
@@ -47,7 +27,18 @@ When asked whether 2020 marks a new decade, people fall into two camps, which I'
 
 * The Ordinals, on the other hand, answer _no, for decades are identified by ordinal numbers counted in sequence from the beginning_. The current decade, the 202nd (or the 2nd of the 21st century), includes the years 2011 through 2020, while the next decade, the 203rd, will include the years 2021 through 2030.
 
-These two camps are both so rational and natural that a person in one camp might deny the very existence of the other. Not since 2015 --- is that still this decade? --- and "[the dress](https://en.wikipedia.org/wiki/The_dress)" have two camps formed so resolutely online. Are they not both completely legitimate ways to count off the decades? Let's evaluate these camps as applied to another periodization: centuries.
+These two camps are both so rational and natural that a person in one camp might deny the very existence of the other. Not since 2015 --- is that still this decade? --- and "[the dress](https://en.wikipedia.org/wiki/The_dress)" have two camps formed so resolutely online. Are they not both completely legitimate ways to count off the decades?
+
+* Give ISO definition
+* Give census definition
+* Give historical newspaper evidence
+* Arrrrgh so what's the answer??? Connect to historical debate about centuries.
+
+
+# Centuries of History of Centuries
+
+
+Some might recall similar questions about the true beginning of the new millennium or new century --- the first of January, but 2000 or 2001? More generally, do centuries begin in years ending with `00` or with `01`? It depends on which camp you're in.
 
 To count centuries, the Cardinals would say that we're in _the 2000s_, running from 2000 to 2099, and last we were in _the 1900s_, running from 1900 to 1999. Surely one cannot deny the legitimacy of referring to centuries as such. The Ordinals, on the other hand, would say that we're in the _the 21st century_, running from 2001 to 2100, and last we were in _the 20th century_, running from 1901 to 2000.
 
@@ -58,10 +49,8 @@ To count centuries, the Cardinals would say that we're in _the 2000s_, running f
 	description2=""
 	caption="A reader's table showing how to count a decade in the 31 December 1899 _Washington Post_, and an enumeration by the Provost of University of Pennsylvania in the 10 December 1899 _Boston Herald_ ([footnote 6](#fn:colleges))." %}
 
-At the level of centuries, this debate has raged for... centuries, most notably the transition from 19th to 20th centuries. Stephen Jay Gould deemed the debate to be one between "high culture" on one side --- the scholarly mantle of Ordinals --- and "vernacular culture" on the other --- the common-sense laurels of Cardinals, most notably expressed in the 1890s.[^gouldculture]
-A century later, he remarks, it would be Arthur C. Clarke's _2001_ vs. Prince's _1999_.
 
-On the side of high culture, insisting that centuries begin in the `01` years, stood Pope Leo XIII,[^popeaddress] astronomers going back centuries,[^loc] and many newspaper editors. They even recognized the distinction as one between cardinal and ordinal numbers, going back at least to 1699.[^delaisement]
+At the level of centuries, this debate has raged for... centuries, most notably the transition from 19th to 20th centuries. _[La fin de siècle](https://en.wikipedia.org/wiki/Fin_de_si%C3%A8cle)_, as it was known in France and in high culture, garnered tremendous attention worldwide. Philosophers, intellectuals, journalists, emperors, and popes all debated and ruled on the exact beginning of the 20th century, their efforts published for mass audiences in the world's newspapers. In response, where today we have social media, back then they had letters to the editor.
 
 {% capture three_articles_caption %}
 Three example articles across the centuries. De Laisement's "Dissertation sur le commencement du siècle prochain" ([1699](#fn:delaisement)), _The London Times_ (26 December 1799), and _The Nashville American_ (4 January 1899).
@@ -72,13 +61,29 @@ Three example articles across the centuries. De Laisement's "Dissertation sur le
 	filename3="decade/tennesseean-1900-century-not-ended.png"
 	caption=three_articles_caption %}
 
+Stephen Jay Gould deemed the debate to be one between "high culture" on one side --- the scholarly mantle of Ordinals --- and "vernacular culture" on the other --- the common-sense laurels of Cardinals, most notably expressed in the 1890s.[^gouldculture]
+A century later, he remarks, it would be Arthur C. Clarke's _2001_ vs. Prince's _1999_.
+
+On the side of high culture, insisting that centuries begin in the `01` years, stood [Pope Leo XIII](https://en.wikipedia.org/wiki/Pope_Leo_XIII),[^popeaddress] astronomers going back centuries,[^loc] and many newspaper editors. They even recognized the distinction as one between cardinal and ordinal numbers, going back at least to 1699.[^delaisement]
+
+{% capture german_song %}
+Have you wondered whether we've started a new decade as much as this person? "[Wann fängt das XIX. Jahrhundert an?](https://books.google.com/books?id=tRVDAAAAcAAJ&pg=PA857&lpg=PA857&dq=%22Wann+fangt+das+XIX.+Jahrhundert+an?%22&source=bl&ots=rn7HjVD-2F&sig=ACfU3U3D1TvWV04VyzhSD1mx9GH6xczr_Q&hl=en&sa=X&ved=2ahUKEwi44ZLTi-nmAhXjV98KHWmHC2QQ6AEwA3oECAQQAQ#v=onepage&q=%22Wann%20fangt%20das%20XIX.%20Jahrhundert%20an%3F%22&f=false)" ("When Does the 19th Century Begin?") _Allgemeine musikalische Zeitung_, 18 September 1799.
+{% endcapture %}
+{% include image.html
+	img_style="width: 50%;"
+	filename="decade/german-music.png"
+	description=german_song
+	figcaption_style="width: 600px;" %}
+
 On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilhelm II of Germany,[^kaiser] the Wellesley College president,[^colleges] and --- most importantly --- the common man. One such common man articulated his position on the "great secular event" of the turn of the century as a populist backlash to "the abacists":
 
 > Shall we wait now a whole year for 1901, at the behest of the abacists? No, we will not pass over the significant year 1900, which is stamped with the great secular change, but with cheers we will welcome it and the new century. The 1900 men, who compose the vast majority of the people, say to their opponents: "We freely admit that the century you have in your mind, the artificial century, begins in 1901, but the natural century (which we prefer) begins in 1900."[^abacists]
 
-In the end, with the intelligentsia on their side the Ordinals won the debate on centuries, as long as the ordinally-specified phrase "the \_\_th century" remains the common expression for centurial periods of history. Then do they also win the debate on decades?
+In the end, with the intelligentsia on their side the Ordinals won the debate on centuries, as long as the ordinally-specified phrase "the `__`th century" remains the common expression for centurial periods of history. Then do they also win the debate on decades?
 
 # What's a Decade Anyway?
+
+A millennium is grandiose. A century is once in a lifetime. But a decade? That's pedestrian. Indeed, among these three periodizations of history, the decade stands alone as being primarily cultural in nature. "Decades are not a function of calendar time," wrote Newsweek journalist Bill Barol. "They are trends, values, and associations, bundled up and tied together in the national memory."[^newsweek]
 
 Without the grandeur of a century, the decade question has prompted far less (serious) debate. The decade, as a periodization of history, is a fairly recent concept. In the 1940s historian Marc Bloch had already warned against the "insidious" practice of periodizing by centuries:
 > We no longer name ages after their heroes. We very prudently number them in sequence every hundred years, starting from a point fixed, once and for all, at the year 1 of the Christian era. [...] Unfortunately, no law of history enjoins that only those years whose dates end with the figures '01' coincide with the critical points of human evolution.[^bloch]
@@ -107,30 +112,16 @@ Smith:
 * NYT article: "What's in a decade, anyway? And how is it that this arbitrary and slim crosscutting of time, a mere 10 years, has grown and flourished to the point that we all walk around in a self-conscious haze about what a new decade represents even before the previous one has tolled its last?"
 {:/comment}
 
-This difference in the idea of the decade, as compared to centuries, also matches the common language to talk about them. Here, the Cardinals have the advantage: you're far less likely to hear talk of "the 203rd decade" than "the 2020s." The situation is reversed for centuries: "the 21st century" is more common than "the 2000s." While it's not immediately clear how to search for "the \_\_s" vs. "the \_\_ century" or "decade," we can at least compare the frequency of the ordinal reference to "centuries" vs. to "decades," which [the following Google Ngram Viewer results](https://books.google.com/ngrams/graph?content=_NUM_+st+century+%2B+_NUM_+nd+century+%2B+_NUM_+rd+century+%2B+_NUM_+th+century%2C_NUM_+st+decade+%2B+_NUM_+nd+decade+%2B+_NUM_+rd+decade+%2B+_NUM_+th+decade&case_insensitive=on&year_start=1700&year_end=2020&corpus=15&smoothing=3&share=&direct_url=t1%3B%2C%28_NUM_%20st%20century%20%2B%20%20_NUM_%20nd%20century%20%2B%20%20_NUM_%20rd%20century%20%2B%20%20_NUM_%20th%20century%29%3B%2Cc0%3B.t1%3B%2C%28_NUM_%20st%20decade%20%2B%20%20_NUM_%20nd%20decade%20%2B%20%20_NUM_%20rd%20decade%20%2B%20%20_NUM_%20th%20decade%29%3B%2Cc0) show.
+This difference in the idea of the decade, as compared to centuries, also matches the common language to talk about them. Here, the Cardinals have the advantage: you're far less likely to hear talk of "the 203rd decade" than "the 2020s." The situation is reversed for centuries: "the 21st century" is more common than "the 2000s." While it's not immediately clear how to search for "the `__`s" vs. either "the `__` century" or "the `__` decade," we can at least compare the frequency of the ordinal reference to "centuries" vs. to "decades," which [the following Google Ngram Viewer results](https://books.google.com/ngrams/graph?content=_NUM_+st+century+%2B+_NUM_+nd+century+%2B+_NUM_+rd+century+%2B+_NUM_+th+century%2C_NUM_+st+decade+%2B+_NUM_+nd+decade+%2B+_NUM_+rd+decade+%2B+_NUM_+th+decade&case_insensitive=on&year_start=1700&year_end=2020&corpus=15&smoothing=3&share=&direct_url=t1%3B%2C%28_NUM_%20st%20century%20%2B%20%20_NUM_%20nd%20century%20%2B%20%20_NUM_%20rd%20century%20%2B%20%20_NUM_%20th%20century%29%3B%2Cc0%3B.t1%3B%2C%28_NUM_%20st%20decade%20%2B%20%20_NUM_%20nd%20decade%20%2B%20%20_NUM_%20rd%20decade%20%2B%20%20_NUM_%20th%20decade%29%3B%2Cc0) show.
 
 {% include image.html
 	filename="decade/ngram-results-ordinals.png"
 	description="Google Ngram results showing frequency of ordinal reference to centuries vs. to decades."
 	 %}
 
-Taking the cardinal invocation of decades to be far more common than the ordinal invocation, it seems to me that the Cardinals win the decade debate; the decades begin on the `00` years. This is the opposite of century counting, though the distinction in the concept of the decade seems to warrant the distinction in the counting.
-
-But without some kind of standard or formal definition to back it up, why trust this outcome? Who can more authoritatively answer?
-
-# Respecting Authority
+Taking the cardinal invocation of decades to be far more common than the ordinal invocation, it seems to me that the Cardinals win the decade debate; the decades begin on the `00` years. And although this is the opposite of century counting, the distinction in the concept of the decade seems to further warrant the distinction in counting.
 
 
-
-
-
-{::comment}
-* Discuss the historical debate about counting centuries.
-* Discuss why decades are different.
-* Provide the ISO 8601 vs. decennial census standardizations.
-* Provide the Tribune discussion on decades and centuries.
-* Conclusively weigh in.
-{:/comment}
 
 
 [^gouldculture]:
