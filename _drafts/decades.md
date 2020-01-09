@@ -16,7 +16,7 @@ The question has percolated through the loud void of social media, reverberating
 
 {% include image.html filename="decade/when-new-decade-begins.png" description="Altered headline of the December 10, 1899 Boston Herald." %}
 
-In an earlier time, the Pope himself might have served as just such an authority. After all, our calendar isn't called "[Gregorian](https://en.wikipedia.org/wiki/Gregorian_calendar)" for nothing; [Pope Gregory XIII]((https://en.wikipedia.org/wiki/Pope_Gregory_XIII)) commissioned it in the 16th century. But today, in true postmodern fashion, people must hash out their own understanding of the decade question without any authoritative answer, or perhaps, with all too many authoritative answers. Recent articles on the subject have consulted [meteorological associations](https://www.forbes.com/sites/marshallshepherd/2020/01/01/is-2020-the-start-of-a-new-decadea-human-technical-and-climate-perspective/#18ed2fd3ee2f), [philosophy professors](https://www.usatoday.com/story/news/nation/2019/12/10/2020-start-new-decade-some-say-thats-not-until-2021/4366467002/), and [the United States Naval Observatory](https://www.nytimes.com/2019/11/28/us/what-is-decade.html).
+
 
 
 # The Two Camps of Counting
@@ -27,7 +27,26 @@ When asked whether 2020 marks a new decade, people fall into two camps, which I'
 
 * The Ordinals, on the other hand, answer _no, for decades are identified by ordinal numbers counted in sequence from the beginning_. The current decade, the 202nd (or the 2nd of the 21st century), includes the years 2011 through 2020, while the next decade, the 203rd, will include the years 2021 through 2030.
 
-These two camps are both so rational and natural that a person in one camp might deny the very existence of the other. Not since 2015 --- is that still this decade? --- and "[the dress](https://en.wikipedia.org/wiki/The_dress)" have two camps formed so resolutely online. Are they not both completely legitimate ways to count off the decades?
+These two camps are both so rational and natural that a person in one camp might deny the very existence of the other. Not since 2015 --- is that still this decade? --- and "[the dress](https://en.wikipedia.org/wiki/The_dress)" have two camps formed so resolutely online. Are they not both completely legitimate ways to count off the decades? If only some authoritative source could lend its weight to either camp.
+
+In an earlier time, the Pope himself might have served as just such an authority. After all, our calendar isn't called "[Gregorian](https://en.wikipedia.org/wiki/Gregorian_calendar)" for nothing; [Pope Gregory XIII]((https://en.wikipedia.org/wiki/Pope_Gregory_XIII)) commissioned it in the 16th century. Recent articles on the subject have consulted [meteorological associations](https://www.forbes.com/sites/marshallshepherd/2020/01/01/is-2020-the-start-of-a-new-decadea-human-technical-and-climate-perspective/#18ed2fd3ee2f), [philosophy professors](https://www.usatoday.com/story/news/nation/2019/12/10/2020-start-new-decade-some-say-thats-not-until-2021/4366467002/), and [the United States Naval Observatory](https://www.nytimes.com/2019/11/28/us/what-is-decade.html).
+
+I will put forward two potential authoritative sources on whether decades should be counted according to Cardinals or to Ordinals: ISO 8601 and decennial census legislation. And unfortunately, they lead us into different camps.
+
+# In One Corner, the Geeks
+
+[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) is the specification of (representations of) dates, times, and other calendar entities for use in computing. The International Organization for Standardization defines new versions every so often, the most recent one in 2019. It's the closest thing we've got to a gold standard for dates and times in software. _What's the right way to represent dates? Local times of day? Local times of day for some time zone? Time scales? Leap seconds?_
+
+ISO 8601 even defines a new standard calendar adapted from the Gregorian calendar.[^iso8601calendar] Just as Common Era was a secular substitution for Anno Domini, the ISO 8601 calendar supplants the Gregorian calendar. No more pesky Year 1 C.E. preceded by Year 1 B.C.E.; ISO 8601 has _Year Zero_,[^yearzero] and negative years. That essentially makes the Ordinal thinking moot, as the first ISO 8601 decade includes the years 0 through 9, not 1 through 10.
+
+Indeed, decades, as defined in ISO 8601, are the years `XXX0` through `XXX9`.[^iso8601decade] For example, using `J` to denote decades, "the 2020s" are represented as `202J`; the "zero decade" is represented as `0J`; and "the negative zero decade," meaning years -9 through 0, is represented as `-0J`. Somewhat strangely, the latter two decades both include year 0. As a consequence, ISO 8601 _really_ rejects the Ordinals since decades no longer describe an ordered, mutually exclusive sequence of spans of ten years.
+
+
+
+
+# In the Other Corner, the Wonks
+
+
 
 * Give ISO definition
 * Give census definition
@@ -79,6 +98,8 @@ On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilh
 
 > Shall we wait now a whole year for 1901, at the behest of the abacists? No, we will not pass over the significant year 1900, which is stamped with the great secular change, but with cheers we will welcome it and the new century. The 1900 men, who compose the vast majority of the people, say to their opponents: "We freely admit that the century you have in your mind, the artificial century, begins in 1901, but the natural century (which we prefer) begins in 1900."[^abacists]
 
+Also in the Cardinals camp on the century question is, again, ISO 8601. It defines centuries analogously to how it defines decades.[^iso8601century]
+
 In the end, with the intelligentsia on their side the Ordinals won the debate on centuries, as long as the ordinally-specified phrase "the `__`th century" remains the common expression for centurial periods of history. Then do they also win the debate on decades?
 
 # What's a Decade Anyway?
@@ -120,6 +141,21 @@ This difference in the idea of the decade, as compared to centuries, also matche
 	 %}
 
 Taking the cardinal invocation of decades to be far more common than the ordinal invocation, it seems to me that the Cardinals win the decade debate; the decades begin on the `00` years. And although this is the opposite of century counting, the distinction in the concept of the decade seems to further warrant the distinction in counting.
+
+An alternative view sees a decade not as a particular sequence of ten-year periods that start either on the `00` or `01` years, but as _any_ ten-year period. This latter view was [introduced into the public consciousness](https://sports.yahoo.com/leafs-rielly-on-the-arrival-of-2020-i-dont-think-its-even-the-end-of-a-decade-174009256.html) recently by Morgan Rielly, a player for the Toronto Maple Leafs hockey team:
+
+> I don’t think it’s even the end of a decade. Every new year is the end of a decade.
+> 2008 to 2018 [sic] is a decade. 2009 to 2019 [sic] is a decade. Every f---ing one is the end of
+> a decade. So all these people saying the decade's come to an end --- that happens
+> every new year.
+> 
+> So, it's the end of the century, it's the end of you-name-it.
+
+In terms of the ISO 8601 standard, that's the distinction between _decades_ (as introduced earlier) and _[time intervals](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals) of duration ten years_. Rielly gives two examples of such time intervals: `2008/2017` and `2009/2018`, both valid time intervals of year precision according to ISO 8601, and also expressible as `2008/P10Y` and `P10Y/2019` respectively. Or they could be ten-year time intervals at minute granularity, e.g., `2009-12-31T14:30/P10Y` as the decade beginning at 2:30 pm on 31 December 2009 and ending at 2:30 pm on 31 December 2019.
+
+
+
+
 
 
 
@@ -174,3 +210,15 @@ Taking the cardinal invocation of decades to be far more common than the ordinal
 
 [^smith]:
 	Jason Scott Smith. "[The Strange History of the Decade: Modernity, Nostalgia, and the Perils of Periodization](http://www.jstor.org/stable/3789661)." _Journal of Social History_, vol. 32, no. 2, 1998. All of the discussion about the particularity of the decade above comes from this fascinating article!
+
+[^iso8601decade]:
+	For the definition of decades, see ISO 8601-1:2019, Section 4.3.11, and extended definitions in Part 2, ISO 8601-2:2019, Sections 4.3.5 and 4.4.1.7.
+
+[^iso8601calendar]:
+	For the reinterpreted definition of the Gregorian calendar, see ISO 8601-1:2019, Section 4.2.1. A [draft copy](https://www.loc.gov/standards/datetime/iso-tc154-wg5_n0038_iso_wd_8601-1_2016-02-16.pdf) of an older version exists on a web server for the Library of Congress; Section 3.2.1 there. The Java library for date and time --- `java.time` or JSR 310, one of my all-time favorite APIs --- [describes](https://docs.oracle.com/javase/8/docs/api/java/time/chrono/IsoChronology.html) the ISO calendar system as "the _de facto_ world calendar."
+
+[^yearzero]:
+	Virtually every discussion of the century debate includes mention of the absence of year zero in the Gregorian calendar (often called "the astronomical year zero"). See [Gould](#fn:gouldculture) for a discussion of the creation of Anno Domini by the monk "Dennis." "In short, Dennis did not begin time at zero, thus discombobulating our usual notions of counting. During the year that Jesus was one year old, the time system that supposedly started with his birth was two years old. (Babies are zero years old until their first birthday; modern time was already one year old at its inception.)" There's also a particularly expansive discussion of this history in _[The Boston Herald](#fn:colleges)_.
+
+[^iso8601century]:
+	For the definition of centuries, see ISO 8601-1:2019, Section 4.3.12, and extended definitions in Part 2, ISO 8601-2:2019, Sections 4.3.6 and 4.4.1.8. For example, the 21st century, "the 2000s," is represented as `20C`, and like with decades, there are zero (`0C`) and negative zero (`-0C`) centuries that both contain year 0.
