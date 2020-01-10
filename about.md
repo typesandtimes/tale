@@ -6,11 +6,11 @@ permalink: /about/
 ---
 
 A blog about programming languages, types, time, and calendars,
-by Scott Kilpatrick, who works in New York City as a software engineer
+by [Scott Kilpatrick](https://people.mpi-sws.org/~skilpat/), who works in New York City as a software engineer
 with particular interest in programming around time and calendars.
 The name _{{site.title}}_ echoes the major focal
-point of programming languages theory, _types and terms_, the [former
-academic subject](https://people.mpi-sws.org/~skilpat/) of the author.
+point of programming languages theory, _types and terms_, the former
+doctoral subject of the author.
 
 * * *
 
