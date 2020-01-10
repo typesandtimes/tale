@@ -5,7 +5,8 @@ excerpt: "Does 2020 begin a new decade? To answer this question we must consult 
 draft: true
 image:
   filename:  "decade/new-century-cartoon-boomer.jpg"
-  alt:       "Illustration on the front page of the 1 January 1901 issue of The Washington Times."
+  alt:       "Illustration on the front page of the 1 January 1901 issue of The Washington Times, altered."
+  caption:   "Illustration on the front page of the 1 January 1901 issue of The Washington Times, altered."
 
 date: 2020-01-10
 author: "Scott Kilpatrick"
