@@ -2,7 +2,6 @@
 layout: post-with-image
 title: "How to Periodize History: 2020 and the Decade Dilemma"
 excerpt: "Does 2020 begin a new decade? To answer this question we must consult the Pope, the Kaiser, the census, a hockey player, and ISO 8601."
-draft: true
 image:
   filename:  "decade/new-century-cartoon-boomer.jpg"
   alt:       "Illustration on the front page of the 1 January 1901 issue of The Washington Times, altered."
