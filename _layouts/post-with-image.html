@@ -3,6 +3,13 @@ layout: default
 ---
 
 <div class="post">
+
+  <h1 class="post-title">
+    {% if page.draft %}
+    DRAFT: 
+    {% endif %}
+    {{ page.title }}
+  </h1>
   <div class="post-info">
     <span>Written by</span>
     {% if page.author %}
@@ -16,22 +23,16 @@ layout: default
       <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
     {% endif %}
   </div>
+  <div class="post-excerpt">{{page.excerpt}}</div>
+  <div class="post-line"></div>
 
-  <h1 class="post-title">
-    {% if page.draft %}
-    DRAFT: 
-    {% endif %}
-    {{ page.title }}
-  </h1>
-
-  <div class="post-image"{% if page.image.style %} style="{{ page.image.style }}"{% endif %}>
-    <p>
+  <figure class="post-image"{% if page.image.style %} style="{{ page.image.style }}"{% endif %}>
+    
       <a href="{{ "/assets/img/" | append: page.image.filename | absolute_url }}" title="{{page.image.alt}}">
         <img src="{{ "/assets/img/" | append: page.image.filename | absolute_url }}" alt="{{page.image.alt}}"{% if page.image.img_style %} style="{{ page.image.img_style }}"{% endif %} />
       </a>
-    <em>{{page.excerpt}}</em></p>
-  </div>
-  <div class="post-line"></div>
+      {% if page.image.caption %}<figcaption>{{ page.image.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
+  </figure>
 
   {{ content }}
 

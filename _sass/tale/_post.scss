@@ -6,6 +6,7 @@
     font-family: $serif-secondary;
     letter-spacing: 0.5px;
     text-align: center;
+    margin-bottom: 1rem;
 
     span {
       font-style: italic;
@@ -23,7 +24,7 @@
   &-line {
     border-top: 0.4rem solid $default-shade;
     display: block;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
     width: 4rem;
   }
 
@@ -31,12 +32,19 @@
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   &-image img {
     max-width: 75%;
     border: .25rem solid $grey-2;
+  }
+
+  &-excerpt {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
   }
 
   p {
