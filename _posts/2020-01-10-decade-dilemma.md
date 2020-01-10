@@ -213,7 +213,7 @@ In this article I've argued decades begin on `0` but centuries begin on `01`. (H
 
 Have we now begun a new decade, the 2020s? I argue yes, while others would argue no. The only certainty is that, like the century debate, the question will never quite die; it will circle back around every decade. "DISCUSSION ALWAYS RECURS," one 1900 headline reminds us.[^nashville1900] But if each time we can piece together a bit more perspective, culturally and historically, we might finally be equipped to solve it for good.
 
-Or maybe the common men will simply overpower the abacists.
+Or maybe the common man will simply overpower the abacists.
 
 
 ---
