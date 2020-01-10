@@ -13,9 +13,9 @@ date: 2020-01-10
 
 A new year in the Common Era has arrived, surely to inundate us all with visual acuity puns. But has _a new decade_ also arrived?
 
-The question has percolated through the loud void of social media, reverberating across [digital content mills and respectable media outlets alike](https://duckduckgo.com/?q=is+2020+a+new+decade&t=h_&ia=news). We all find ourselves burning with new intensity, searching for any authoritative voice to make sense of this quandary. _[The New York Times](https://www.nytimes.com/2019/11/28/us/what-is-decade.html), [Farmer's Almanac](https://www.farmersalmanac.com/new-decade-2020-or-2021-100900), [Timeanddate.com](https://www.timeanddate.com/calendar/decade.html), please somebody tell us!_
+The question has percolated through the loud void of social media, reverberating across [digital content mills and respectable media outlets alike](https://duckduckgo.com/?q=is+2020+a+new+decade&t=h_&ia=news). We all find ourselves burning with new intensity, searching for any authoritative voice to make sense of this quandary. _[The New York Times](https://www.nytimes.com/2019/11/28/us/what-is-decade.html)_, _[The Irish Times](https://www.irishtimes.com/opinion/go-ahead-celebrate-the-new-decade-a-year-early-just-count-me-out-1.4127481)_, _[India Today](https://www.indiatoday.in/trending-news/story/when-does-the-new-decade-start-are-you-team-january-1-2020-or-team-january-1-2021-1624530-2019-12-02)_, _[Farmer's Almanac](https://www.farmersalmanac.com/new-decade-2020-or-2021-100900), [Timeanddate.com](https://www.timeanddate.com/calendar/decade.html), please somebody tell us!_
 
-Others resort to the nihilistic view that decades never begin or end, or rather, begin and end always and forever --- they're just ten-year spans of time without any defined order. This perspective was [introduced into the public mind](https://sports.yahoo.com/leafs-rielly-on-the-arrival-of-2020-i-dont-think-its-even-the-end-of-a-decade-174009256.html) recently by Morgan Rielly, a player for the Toronto Maple Leafs hockey team:
+Others resort to the nihilistic view that decades never begin or end, or rather, begin and end always and forever --- they're just ten-year spans of time without any defined order between them.[^justspans] This perspective was [introduced into the public mind](https://sports.yahoo.com/leafs-rielly-on-the-arrival-of-2020-i-dont-think-its-even-the-end-of-a-decade-174009256.html) recently by Morgan Rielly, a player for the Toronto Maple Leafs hockey team:
 
 > I don’t think it’s even the end of a decade. Every new year is the end of a decade.
 > 2008 to 2018 [sic] is a decade. 2009 to 2019 [sic] is a decade. Every f---ing one is the end of
@@ -37,6 +37,7 @@ When asked whether 2020 marks a new decade, people fall into two camps, which I'
 These two camps are both so rational and natural that a person in one camp might deny the very existence of the other. Not since "[the dress](https://en.wikipedia.org/wiki/The_dress)" of 2015 --- is that still this decade? --- have two camps formed so resolutely online. Are they not both completely legitimate ways to count off the decades? If only some authoritative source could lend its weight to either camp.
 
 {% include two_images.html
+	id="fig:cartoonresponse"
 	filename1="decade/chicago-tribune-1929-cartoon-naming-decades.jpg"
 	filename2="decade/chicago-tribune-1930-response-to-cartoon-naming-decades.jpg"
 	img2_style="height: 284px;"
@@ -57,20 +58,15 @@ Indeed, decades, as defined in ISO 8601, are the years `XXX0` through `XXX9`.[^i
 ISO 8601 is firmly in the camp of the Cardinals.
 
 
-
-# In the Other Corner, the Wonks
-
-Not everyone finds ISO 8601 to be all that authoritative. But what about the European Union? Okay, maybe not the English, but what about their own government as well? And even the Americas? Although governments of nation states don't generally have reason to weigh in on the exact definitions of time, they do tend to institutionalize the decade in particular---as the period in which the government conducts a census.
-
-The practice of conducting a population census by state authorities goes back to ancient times; the decennial period --- once a decade --- became convention more recently. For those states that conduct them decennially, surely they must spell out the precise formal interpretation of decades, right?
-
-Recent legislation in the European Union does exactly that. In its [standardization of population and housing census methodology](https://ec.europa.eu/eurostat/documents/3859598/9670557/KS-GQ-18-010-EN-N.pdf/c3df7fcb-f134-4398-94c8-4be0b7ec0494) for member states, the EU specifies that member nations run a census "every decade" on a "reference date" of their choosing. "The first reference year shall be 2011. [...] Reference years shall fall during the beginning of every decade."[^eucensus] In other words, the `1` years begin the decades and therefore the EU implicitly takes up the Ordinal position.
-
-
 {% include image.html
 	filename="decade/boston-herald-1899-when-new-century-begins.png"
 	description="Headline of the [10 December 1899 _Boston Herald_](#fn:colleges) that sought input from collegiate experts." %}
 
+# In the Other Corner, the Wonks
+
+Not everyone finds ISO 8601 to be all that authoritative. But what about nation states? Although they don't generally have reason to weigh in on the exact definitions of time, they do tend to institutionalize the decade in particular --- as the period in which the government conducts a census. For those governments that conduct them decennially, surely they must spell out the precise formal interpretation of decades, right?
+
+Recent legislation in the European Union does exactly that. In its [standardization of population and housing census methodology](https://ec.europa.eu/eurostat/documents/3859598/9670557/KS-GQ-18-010-EN-N.pdf/c3df7fcb-f134-4398-94c8-4be0b7ec0494) for member states, the EU specifies that member nations run a census "every decade" on a "reference date" of their choosing. "The first reference year shall be 2011. [...] Reference years shall fall during the beginning of every decade."[^eucensus] In other words, the `1` years begin the decades and therefore the EU implicitly takes up the Ordinal position.
 
 For the United States in particular, it's even [in our Constitution](https://www.census.gov/history/pdf/Article_1_Section_2.pdf) to apportion Congressional representatives according to state populations counted "every subsequent Term of ten Years," though the period of "decade" is not used. In [the New York state constitution](https://www.dos.ny.gov/info/constitution.htm), however, not only is "decade" mentioned (also for apportionment of representatives), but its exact year bounds are explicitly clarified:
 
@@ -82,19 +78,17 @@ For the United States in particular, it's even [in our Constitution](https://www
 
 Between the mention of 1931 as the beginning of a decade and the mention of 1936 as the sixth year of the decade, the New York constitution clearly takes the Ordinal position.
 
-Back to the whole US, the legal language around the decennial census itself does not seem to mention "decade" anywhere, not in any historic iteration of the Census Act and, surprisingly, not in the [US Code Title 13](https://www.law.cornell.edu/uscode/text/13) that characterizes the census process.
-
-Our census occurs in the `0` years but there's no qualification that these _begin_ each decade. In a 1908 American Statistical Association [survey of census methodology across the Americas](https://www.jstor.org/stable/2275965), however, sheds some light on the counting in this field:
+Back to the whole US, the legal language around the decennial census itself does not seem to mention "decade" anywhere, not in any [historic iteration of the Census Act](https://www.census.gov/history/www/reference/legislation/) and, surprisingly, not in the [US Code Title 13](https://www.law.cornell.edu/uscode/text/13) that codifies the census bureaucracy. Our census occurs in the `0` years but there's no qualification that these _begin_ each decade. A 1908 American Statistical Association [survey of census methodology across the Americas](https://www.jstor.org/stable/2275965), however, sheds some light on the counting in this field:
 
 > The most generally accepted dates for a decennial census are those that begin or end decades. The tenth year of the decade has been accepted in the United States and in several European countries, and in Brazil. England and most of her colonies accept the first year of the decade.[^censusarticle]
 
 The US census occurs in the `0` years, referred to as the tenth (last) years of the decades, while the UK census occurs in the `1` years, referred to as the first years.
 
-Altogether it seems that decennial censuses suggest the Ordinal position on decades.
+Altogether it seems that governments, at least those conducting decennial censuses in the anglophone world, take up the Ordinal position on decades.
 
 # The Historical Record
 
-With the geek and wonky authorities taking contradictory positions on the decade question, what about popular usage in the archives of major newspapers and other such publications? A scattershot of archival records, mostly in major newspapers, usually via searching for `"new decade"`, suggests that both counting styles have been used consistently---and sometimes inconsistently in the same place. Such evidence includes:
+With the geek and wonk authorities taking contradictory positions on the decade question, what about popular usage in the archives of major newspapers and other such publications? A scattershot of archival records, generally by searching for `"new decade"`, suggests that both counting styles have been used over the past century or so---and sometimes inconsistently in the same place. Such evidence includes:
 
 {% capture label_ordinal %}
 <span style="display: inline-block; width: 80px;">Ordinal:</span>
@@ -114,14 +108,20 @@ With the geek and wonky authorities taking contradictory positions on the decade
 * {{label_cardinal}} A different, possibly [less swanky fundraiser](https://timesmachine.nytimes.com/timesmachine/1949/11/13/93550239.html?pageNumber=87) also called "New Decade" in December 1949, also reported by the _New York Times_.[^nyt1949]
 * {{label_cardinal}} A [1960 call](https://timesmachine.nytimes.com/timesmachine/1960/01/02/99282204.html?pageNumber=12) for a new Renaissance of worldly experts, not just invoking "our new decade" but identifying three decades cardinally.[^nyt1960]
 * {{label_cardinal}} The [inaugural speech](https://www.nytimes.com/1970/01/01/archives/text-of-the-lindsay-inaugural-speech.html) of New York City Mayor John Lindsay on the last day of 1969.[^nyt1970]
-* {{label_cardinal}} A [New Year message](https://www.newspapers.com/image/79198785/?terms=%22new%2Bdecade%22) in the 1880 _New York Tribune_.[^nytrib1880]
-* {{label_ordinal}} A [look at the plays](https://www.newspapers.com/image/85504863/?terms=%22new%2Bdecade%22) of "the new decade" ten years later in the 1890 _New York Tribune_.[^nytrib1890]
-* {{label_cardinal}} A [celebration of "holiday trade"](https://www.newspapers.com/image/430769476/?terms=%22new%2Bdecade%22) in the 1889 _Boston Globe_.[^bosglobe1889]
+* {{label_cardinal}} A New Year message in the 1880 _New York Tribune_.[^nytrib1880]
+* {{label_ordinal}} A look at the plays of "the new decade" in the 1890 _New York Tribune_, ten years later but with a different position.[^nytrib1890]
+* {{label_cardinal}} A celebration of "holiday trade" in the 1889 _Boston Globe_.[^bosglobe1889]
 * {{label_ordinal}} A chest-beating celebration of the _Chicago Tribune_'s year ahead in 1921.[^ctrib1921]
-* {{label_cardinal}} A [cartoon](https://www.newspapers.com/image/349805303/?terms=decade) about historians naming "the dying decade" in the 1929 _Chicago Tribune_.[^ctrib1929]
-* {{label_ordinal}} An [angry reader response](https://www.newspapers.com/image/349171819/?terms=%22new%2Bdecade%22) to that cartoon's mistake identifying the decade.[^ctrib1930]
+* {{label_cardinal}} A [cartoon](#fig:cartoonresponse) about historians naming "the dying decade" in the 1929 _Chicago Tribune_.[^ctrib1929]
+* {{label_ordinal}} An [angry reader response](#fig:cartoonresponse) to that cartoon's mistake identifying the decade.[^ctrib1930]
+* {{label_ordinal}} An [editorial response](/assets/img/decade/New_York_Tribune_Sun__Dec_23__1900.pdf) to a reader's query about the start of the new century in 1900, linking it explicitly to the decade dilemma too, in the _New York Tribune_. The masterful response cites two encyclopedias' entries on "Chronology," explains the frustrated lack of astronomical year zero, provides multiple enumerations of years in decades, concurs with our philosophical Canadian hockey player Rielly on the multitude of decades available, and even cedes territory to the Cardinals on common expressions like "in the [eighteen!] sixties."[^nytrib1900]
 
 Whew. With all the discord around counting decades, how do we resolve the dilemma? To better equip ourselves with the tools to conclusively resolve it, we should first look to _the century dilemma_.
+
+{% include image.html
+	filename="decade/nytribune-1900-spread-to-decades.png"
+	img_style="width: 60%;"
+	description="A humble letter to the editor followed by a masterful response in the _New York Tribune_ ([23 December 1900](#fn:nytrib1900))." %}
 
 
 # Centuries of History of Centuries
@@ -132,6 +132,7 @@ At the level of centuries, this debate has raged for... centuries, most notably 
 Three example articles across the centuries. De Laisement's "Dissertation sur le commencement du siècle prochain" ([1699](#fn:delaisement)), _The London Times_ (26 December 1799), and _The Nashville American_ (4 January 1899).
 {% endcapture %}
 {% include three_images.html
+	id="fig:generations"
 	filename1="decade/delaisement-dissertation-first-page.png"
 	filename2="decade/times-london-1799-the-next-century.png"
 	filename3="decade/tennesseean-1900-century-not-ended.png"
@@ -197,33 +198,22 @@ Smith:
 * NYT article: "What's in a decade, anyway? And how is it that this arbitrary and slim crosscutting of time, a mere 10 years, has grown and flourished to the point that we all walk around in a self-conscious haze about what a new decade represents even before the previous one has tolled its last?"
 {:/comment}
 
-This difference in the idea of the decade, as compared to centuries, also matches the common language to talk about them. Here, the Cardinals have the advantage: you're far less likely to hear talk of "the 203rd decade" than "the 2020s." The situation is reversed for centuries: "the 21st century" is more common than "the 2000s." While it's not immediately clear how to search for "the `__`s" vs. either "the `__` century" or "the `__` decade," we can at least compare the frequency of the ordinal reference to "centuries" vs. to "decades," which [the following Google Ngram Viewer results](https://books.google.com/ngrams/graph?content=_NUM_+st+century+%2B+_NUM_+nd+century+%2B+_NUM_+rd+century+%2B+_NUM_+th+century%2C_NUM_+st+decade+%2B+_NUM_+nd+decade+%2B+_NUM_+rd+decade+%2B+_NUM_+th+decade&case_insensitive=on&year_start=1700&year_end=2020&corpus=15&smoothing=3&share=&direct_url=t1%3B%2C%28_NUM_%20st%20century%20%2B%20%20_NUM_%20nd%20century%20%2B%20%20_NUM_%20rd%20century%20%2B%20%20_NUM_%20th%20century%29%3B%2Cc0%3B.t1%3B%2C%28_NUM_%20st%20decade%20%2B%20%20_NUM_%20nd%20decade%20%2B%20%20_NUM_%20rd%20decade%20%2B%20%20_NUM_%20th%20decade%29%3B%2Cc0) show.
+This difference in the idea of the decade, as compared to centuries, also matches the common language to talk about them. Here, the Cardinals have the advantage: you're far less likely to hear talk of "the 203rd decade" than "the 2020s." The situation is reversed for centuries: "the 21st century" is more common than "the 2000s." While it's not immediately clear how to search for "the `__`s" vs. either "the `__` century" or "the `__` decade," we can at least compare the frequency of the ordinal reference to "centuries" vs. to "decades," shown by [the Google Ngram Viewer results below](https://books.google.com/ngrams/graph?content=_NUM_+st+century+%2B+_NUM_+nd+century+%2B+_NUM_+rd+century+%2B+_NUM_+th+century%2C_NUM_+st+decade+%2B+_NUM_+nd+decade+%2B+_NUM_+rd+decade+%2B+_NUM_+th+decade&case_insensitive=on&year_start=1700&year_end=2020&corpus=15&smoothing=3&share=&direct_url=t1%3B%2C%28_NUM_%20st%20century%20%2B%20%20_NUM_%20nd%20century%20%2B%20%20_NUM_%20rd%20century%20%2B%20%20_NUM_%20th%20century%29%3B%2Cc0%3B.t1%3B%2C%28_NUM_%20st%20decade%20%2B%20%20_NUM_%20nd%20decade%20%2B%20%20_NUM_%20rd%20decade%20%2B%20%20_NUM_%20th%20decade%29%3B%2Cc0).
 
 {% include image.html
 	filename="decade/ngram-results-ordinals.png"
-	description="Google Ngram results showing frequency of ordinal reference to centuries vs. to decades."
+	description="Google Ngram [results](https://books.google.com/ngrams/graph?content=_NUM_+st+century+%2B+_NUM_+nd+century+%2B+_NUM_+rd+century+%2B+_NUM_+th+century%2C_NUM_+st+decade+%2B+_NUM_+nd+decade+%2B+_NUM_+rd+decade+%2B+_NUM_+th+decade&case_insensitive=on&year_start=1700&year_end=2020&corpus=15&smoothing=3&share=&direct_url=t1%3B%2C%28_NUM_%20st%20century%20%2B%20%20_NUM_%20nd%20century%20%2B%20%20_NUM_%20rd%20century%20%2B%20%20_NUM_%20th%20century%29%3B%2Cc0%3B.t1%3B%2C%28_NUM_%20st%20decade%20%2B%20%20_NUM_%20nd%20decade%20%2B%20%20_NUM_%20rd%20decade%20%2B%20%20_NUM_%20th%20decade%29%3B%2Cc0) showing frequency of ordinal reference to centuries vs. to decades."
 	 %}
 
-Taking the cardinal invocation of decades to be far more common than the ordinal invocation, it seems to me that the Cardinals win the decade debate; the decades begin on the `00` years. And although this is the opposite of century counting, the distinction in the concept of the decade seems to further warrant the distinction in counting.
+Taking the cardinal invocation of decades to be far more common than the ordinal invocation, it seems to me that the Cardinals win the decade debate. And although this is the opposite of century counting, the distinction in the concept of the decade seems to further warrant the distinction in counting.
 
-{::comment}
-In terms of the ISO 8601 standard, that's the distinction between _decades_ (as introduced earlier) and _[time intervals](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals) of duration ten years_. Rielly gives two examples of such time intervals: `2008/2017` and `2009/2018`, both valid time intervals of year precision according to ISO 8601, and also expressible as `2008/P10Y` and `P10Y/2019` respectively. Or they could be ten-year time intervals at minute granularity, e.g., `2009-12-31T14:30/P10Y` as the decade beginning at 2:30 pm on 31 December 2009 and ending at 2:30 pm on 31 December 2019.
-{:/comment}
+# Conclusion
 
-# Respect for a Forebear
+In this article I've argued decades begin on `0` but centuries begin on `01`. (How sorry I am to disagree with the ISO 8601 standard in the latter case.) Of course, disregarding a chronological epoch like the year 1 C.E., decades are _also_ just arbitrary spans of ten years of time.
 
-In this article I've taken the Cardinals position on decades and the Ordinals position on centuries. (How sorry I am to disagree with the ISO 8601 standard in the latter case.) While I believe this determination to be sound and reasonable, one example from the archives of how both questions were resolved deserves modern attention.
+Have we now begun a new decade, the 2020s? I argue yes, while others would argue no. The only certainty is that, like the century debate, the question will never quite die; it will circle back around every decade. "DISCUSSION ALWAYS RECURS," one 1900 headline reminds us.[^nashville1900] But if each time we can piece together a bit more perspective, culturally and historically, we might finally be equipped to solve it for good.
 
-{% include image.html
-	filename="decade/nytribune-1900-spread-to-decades.png"
-	img_style="width: 60%;"
-	description="A humble letter to the editor followed by a masterful response in the 23 December 1900 _New York Tribune_." %}
-
-On 23 December 1900 an editor of the _New York Tribune_, one of the foremost newspapers of the time, [published](https://www.newspapers.com/image/206535133/?terms=%22new%2Bdecade%22) a masterful response to a letter, from a Wilbur Fisk, asking for clarification on the century and decade dilemmas.[^nytrib1900] The editor begins by praising the letter, which is "truly a comfort"; it's "plain, straightforward, candid, modest and honest." "If [Fisk] could see the letters on this subject which have been received at this office in the last week, the most of them stupid and silly, some of them abusive and all of them except his anonymous, he would blush for his side of the case."
-
-Taking the Ordinal position with confidence, the editor demonstrates multiple enumerations of years. But he's flexible at the same time: he recognizes the common language around decades as well, e.g., the expression "in the sixties." "But it is merely a loose and conversational mode of speech, like many another. It has no historic or mathematical significance, and has nothing to do with the question." Even more flexible, the editor also concurs with our philosophical Canadian hockey player Rielly on the multitude of decades available. "It must be borne of mind, however, that the word 'decade' means merely a period of ten years, regardless of when it begins or ends. The period from July 4, 1876, to July 4, 1886, is just as much a decade as any other period of ten years."
-
-Have we now begun a new decade, the 2020s? I argue yes, while others would argue no. The only certain outcome is that, like the century debate, the question will never quite die; it will circle back around every decade. But if each time we can piece together a bit more perspective, culturally and historically, we might finally be equipped to solve it for good. Or maybe the common men will simply overpower the abacists.
+Or maybe the common men will simply overpower the abacists.
 
 
 ---
@@ -336,10 +326,16 @@ Have we now begun a new decade, the 2020s? I argue yes, while others would argue
 	"[1921 Will Reward Fighters](https://www.newspapers.com/image/355137895/?terms=%22new%2Bdecade%22)," _Chicago Tribune_, 3 January 1921, pp. 34. "A new year, a new decade, a new epoch open before us."
 
 [^ctrib1929]:
-	"[When the Historians Meets to Name the Dying Decade](https://www.newspapers.com/image/349805303/?terms=decade)," _Chicago Tribune_, 29 December 1929, pp. 1. See the [embedded image](/assets/img/decade/chicago-tribune-1929-cartoon-naming-decades.jpg) in this article.
+	"[When the Historians Meets to Name the Dying Decade](https://www.newspapers.com/image/349805303/?terms=decade)," _Chicago Tribune_, 29 December 1929, pp. 1. See the [embedded image](#fig:cartoonresponse) in this article.
 
 [^ctrib1930]:
-	"[The End of the Decade](https://www.newspapers.com/image/349171819/?terms=%22new%2Bdecade%22)," _Chicago Tribune_, 4 January 1930, pp. 10. A reader's frustrated rejection of the political cartoon published a week before. "Even your leading cartoonist appears to make this mistake. The year 1930 is the last of the third decade, and the fourth decade will not begin until Jan. 1, 1931." See the [embedded image](/assets/img/decade/chicago-tribune-1930-response-to-cartoon-naming-decades.jpg) in this article.
+	"[The End of the Decade](https://www.newspapers.com/image/349171819/?terms=%22new%2Bdecade%22)," _Chicago Tribune_, 4 January 1930, pp. 10. A reader's frustrated rejection of the political cartoon published a week before. "Even your leading cartoonist appears to make this mistake. The year 1930 is the last of the third decade, and the fourth decade will not begin until Jan. 1, 1931." See the [embedded image](#fig:cartoonresponse) in this article.
 
 [^nytrib1900]:
-	"[The End of the Century](https://www.newspapers.com/image/206535133/?terms=%22new%2Bdecade%22)," _New York Tribune_, 23 December 1900, p. 16. Saved to pdf for posterity [here](/assets/img/decade/New_York_Tribune_Sun__Dec_23__1900.pdf).
+	"[The End of the Century](https://www.newspapers.com/image/206535133/?terms=%22new%2Bdecade%22)," _New York Tribune_, 23 December 1900, p. 16. Saved to pdf for posterity [here](/assets/img/decade/New_York_Tribune_Sun__Dec_23__1900.pdf). This article is dear to me because of its detail, clear language, and scholarly aspirations. The editor begins by praising the letter, which is "truly a comfort"; it's "plain, straightforward, candid, modest and honest." "If [the letter's author] could see the letters on this subject which have been received at this office in the last week, the most of them stupid and silly, some of them abusive and all of them except his anonymous, he would blush for his side of the case." Regarding the Cardinal approach to naming and counting decades: "But it is merely a loose and conversational mode of speech, like many another. It has no historic or mathematical significance, and has nothing to do with the question." Regarding the decade as a mere time span: "It must be borne of mind, however, that the word 'decade' means merely a period of ten years, regardless of when it begins or ends. The period from July 4, 1876, to July 4, 1886, is just as much a decade as any other period of ten years."
+
+[^justspans]:
+	In terms of the ISO 8601 standard, introduced later in this article, the decade as a mere span of ten years is a _[time interval](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals) of duration ten years_. Above, Rielly gives two examples of such time intervals: `2008/2017` and `2009/2018`, both valid time intervals of year precision according to ISO 8601, and also expressible as `2008/P10Y` and `2019/P10Y` respectively. Or they could be ten-year time intervals at minute granularity, e.g., `2009-12-31T14:30/P10Y` as the decade beginning at 2:30 pm on 31 December 2009 and ending at 2:30 pm on 31 December 2019.
+
+[^nashville1900]:
+	"[Century Not Ended Says Flammarion](https://www.newspapers.com/image/604225670/)," _The Nashville American_, 4 January 1900. Headline and dek reproduced in third image [embedded above](#fig:generations). A reasonably authoritative account of the Ordinal position on centuries, from a French astronomer [Camille Flammarion](https://en.wikipedia.org/wiki/Camille_Flammarion), loaded with history and even literal French citations.

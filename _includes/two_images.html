@@ -1,4 +1,4 @@
-<figure class="two_images"{% if include.style %} style="{{include.style}}"{% endif %}>
+<figure class="two_images"{% if include.style %} style="{{include.style}}"{% endif %}{% if include.id %} id="{{include.id}}"{% endif %}>
   <span>
     <a href="{{ "/assets/img/" | append: include.filename1 | absolute_url }}">
     <img{% if include.img1_style %} style="{{include.img1_style}}"{% endif %} src="{{ "/assets/img/" | append: include.filename1 | absolute_url }}" alt="{{ include.description1 | strip_html }}">
