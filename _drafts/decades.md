@@ -16,6 +16,14 @@ The question has percolated through the loud void of social media, reverberating
 
 {% include image.html filename="decade/when-new-decade-begins.png" description="Altered headline of the December 10, 1899 Boston Herald." %}
 
+Others resort to the nihilistic view that decades never begin or end, or rather, begin and end always and forever --- they're just ten-year spans of time without any defined order. This perspective was [introduced into the public mind](https://sports.yahoo.com/leafs-rielly-on-the-arrival-of-2020-i-dont-think-its-even-the-end-of-a-decade-174009256.html) recently by Morgan Rielly, a player for the Toronto Maple Leafs hockey team:
+
+> I don’t think it’s even the end of a decade. Every new year is the end of a decade.
+> 2008 to 2018 [sic] is a decade. 2009 to 2019 [sic] is a decade. Every f---ing one is the end of
+> a decade. So all these people saying the decade's come to an end --- that happens
+> every new year.
+> 
+> So, it's the end of the century, it's the end of you-name-it.
 
 
 
@@ -27,7 +35,7 @@ When asked whether 2020 marks a new decade, people fall into two camps, which I'
 
 * The Ordinals, on the other hand, answer _no, for decades are identified by ordinal numbers counted in sequence from the beginning_. The current decade, the 202nd (or the 2nd of the 21st century), includes the years 2011 through 2020, while the next decade, the 203rd, will include the years 2021 through 2030.
 
-These two camps are both so rational and natural that a person in one camp might deny the very existence of the other. Not since 2015 --- is that still this decade? --- and "[the dress](https://en.wikipedia.org/wiki/The_dress)" have two camps formed so resolutely online. Are they not both completely legitimate ways to count off the decades? If only some authoritative source could lend its weight to either camp.
+These two camps are both so rational and natural that a person in one camp might deny the very existence of the other. Not since "[the dress](https://en.wikipedia.org/wiki/The_dress)" of 2015 --- is that still this decade? --- have two camps formed so resolutely online. Are they not both completely legitimate ways to count off the decades? If only some authoritative source could lend its weight to either camp.
 
 In an earlier time, the Pope himself might have served as just such an authority. After all, our calendar isn't called "[Gregorian](https://en.wikipedia.org/wiki/Gregorian_calendar)" for nothing; [Pope Gregory XIII]((https://en.wikipedia.org/wiki/Pope_Gregory_XIII)) commissioned it in the 16th century. Recent articles on the subject have consulted [meteorological associations](https://www.forbes.com/sites/marshallshepherd/2020/01/01/is-2020-the-start-of-a-new-decadea-human-technical-and-climate-perspective/#18ed2fd3ee2f), [philosophy professors](https://www.usatoday.com/story/news/nation/2019/12/10/2020-start-new-decade-some-say-thats-not-until-2021/4366467002/), and [the United States Naval Observatory](https://www.nytimes.com/2019/11/28/us/what-is-decade.html).
 
@@ -51,7 +59,7 @@ Not everyone finds ISO 8601 to be all that authoritative. But what about the Eur
 
 The practice of conducting a population census by state authorities goes back to ancient times; the decennial period --- once a decade --- became convention more recently. For those states that conduct them decennially, surely they must spell out the precise formal interpretation of decades, right?
 
-Recent legislation in the European Union does exactly that. In its standardization of population and housing census methodology for member states, the EU specifies that member nations run a census "every decade" on a "reference date" of their choosing. "The first reference year shall be 2011. [...] Reference years shall fall during the beginning of every decade." In other words, the `1` years begin the decades and therefore the EU implicitly takes up the Ordinal position.
+Recent legislation in the European Union does exactly that. In its [standardization of population and housing census methodology](https://ec.europa.eu/eurostat/documents/3859598/9670557/KS-GQ-18-010-EN-N.pdf/c3df7fcb-f134-4398-94c8-4be0b7ec0494) for member states, the EU specifies that member nations run a census "every decade" on a "reference date" of their choosing. "The first reference year shall be 2011. [...] Reference years shall fall during the beginning of every decade."[^eucensus] In other words, the `1` years begin the decades and therefore the EU implicitly takes up the Ordinal position.
 
 For the United States in particular, it's even [in our Constitution](https://www.census.gov/history/pdf/Article_1_Section_2.pdf) to apportion Congressional representatives according to state populations counted "every subsequent Term of ten Years," though the period of "decade" is not used. In the New York state constitution, however, not only is "decade" mentioned (also for apportionment of representatives), but its exact year bounds are explicitly clarified:
 
@@ -65,6 +73,24 @@ Between the mention of 1931 as the beginning of a decade and the mention of 1936
 
 Elsewhere, back to the whole US, the legal language around the decennial census itself does not seem to mention "decade" anywhere, not in any historic iteration of the Census Act and, surprisingly, not in the [US Code TItle 13](https://www.law.cornell.edu/uscode/text/13) that characterizes the census process.
 
+Our census occurs in the `0` years but there's no qualification that these _begin_ each decade. In a 1908 American Statistical Association [survey of census methodology across the Americas](https://www.jstor.org/stable/2275965), however, sheds some light on the counting in this field:
+
+> The most generally accepted dates for a decennial census are those that begin or end decades. The tenth year of the decade has been accepted in the United States and in several European countries, and in Brazil. England and most of her colonies accept the first year of the decade.[^censusarticle]
+
+The US census occurs in the `0` years, referred to as the tenth (last) years of the decades, while the UK census occurs in the `1` years, referred to as the first years.
+
+Altogether it seems that decennial censuses suggest the Ordinal position on decades.
+
+# Enter the Journalists
+
+With the geek and wonky authorities taking contradictory positions on the decade question, what about popular usage in the archives of major newspapers and other such publications?
+
+
+
+...
+
+With all the discord around counting decades, how do we resolve the dilemma? To better equip ourselves with the tools to conclusively resolve it, we should first look to _the century dilemma_.
+
 
 * Give ISO definition
 * Give census definition
@@ -73,19 +99,6 @@ Elsewhere, back to the whole US, the legal language around the decennial census 
 
 
 # Centuries of History of Centuries
-
-
-Some might recall similar questions about the true beginning of the new millennium or new century --- the first of January, but 2000 or 2001? More generally, do centuries begin in years ending with `00` or with `01`? It depends on which camp you're in.
-
-To count centuries, the Cardinals would say that we're in _the 2000s_, running from 2000 to 2099, and last we were in _the 1900s_, running from 1900 to 1999. Surely one cannot deny the legitimacy of referring to centuries as such. The Ordinals, on the other hand, would say that we're in the _the 21st century_, running from 2001 to 2100, and last we were in _the 20th century_, running from 1901 to 2000.
-
-{% include two_images.html
-	filename1="decade/washington-post-1899-12-31-table.png"
-	description1=""
-	filename2="decade/boston-herald-1899-12-10-enumeration.png"
-	description2=""
-	caption="A reader's table showing how to count a decade in the 31 December 1899 _Washington Post_, and an enumeration by the Provost of University of Pennsylvania in the 10 December 1899 _Boston Herald_ ([footnote 6](#fn:colleges))." %}
-
 
 At the level of centuries, this debate has raged for... centuries, most notably the transition from 19th to 20th centuries. _[La fin de siècle](https://en.wikipedia.org/wiki/Fin_de_si%C3%A8cle)_, as it was known in France and in high culture, garnered tremendous attention worldwide. Philosophers, intellectuals, journalists, emperors, and popes all debated and ruled on the exact beginning of the 20th century, their efforts published for mass audiences in the world's newspapers. In response, where today we have social media, back then they had letters to the editor.
 
@@ -97,6 +110,16 @@ Three example articles across the centuries. De Laisement's "Dissertation sur le
 	filename2="decade/times-london-1799-the-next-century.png"
 	filename3="decade/tennesseean-1900-century-not-ended.png"
 	caption=three_articles_caption %}
+
+To count centuries, the Cardinals would say that we're in _the 2000s_, running from 2000 to 2099, and last we were in _the 1900s_, running from 1900 to 1999. Surely one cannot deny the legitimacy of referring to centuries as such. The Ordinals, on the other hand, would say that we're in the _the 21st century_, running from 2001 to 2100, and last we were in _the 20th century_, running from 1901 to 2000.
+
+{% include two_images.html
+	filename1="decade/washington-post-1899-12-31-table.png"
+	description1=""
+	filename2="decade/boston-herald-1899-12-10-enumeration.png"
+	description2=""
+	caption="A reader's table showing how to count a decade in the 31 December 1899 _Washington Post_, and an enumeration by the Provost of University of Pennsylvania in the 10 December 1899 _Boston Herald_ ([footnote 6](#fn:colleges))." %}
+
 
 Stephen Jay Gould deemed the debate to be one between "high culture" on one side --- the scholarly mantle of Ordinals --- and "vernacular culture" on the other --- the common-sense laurels of Cardinals, most notably expressed in the 1890s.[^gouldculture]
 A century later, he remarks, it would be Arthur C. Clarke's _2001_ vs. Prince's _1999_.
@@ -129,9 +152,6 @@ Without the grandeur of a century, the decade question has prompted far less (se
 
 If centurial thinking already had "no rational basis," what about the decade? Warren Susman criticized it as "a special and perhaps characteristically American way of seeing the past: as a series of decades that fit neatly into limits imposed by man-made calendars."[^susman] Jason Scott Smith, in his 1997 article "[The Strange History of the Decade](http://www.jstor.org/stable/3789661)," traces the history of the decade in primarily American, primarily cultural thought.[^smith] "The decade contributes to an abbreviated historical attention span---cause and effect are confused, and the record of the past is reduced to a 'progression of cultural styles.'" When did this begin? According to Smith, oweing to the World War, to global revolutions of technology and politics, and to a subsequent decade full of nostalgia, the 1920s were "the first decade truly to legitimate a ten-year span of time as a historic category."
 
-
-
-
 {::comment}
 {% capture dialogue %}
 A presentation of two year counting methods in <em>Literary Digest</em>, Vol. 19, No. 27, <a href="https://archive.org/details/literarydigest19newy/page/798" title="Literary Digest dialogue about counting years">p. 799</a>.
@@ -160,17 +180,9 @@ This difference in the idea of the decade, as compared to centuries, also matche
 
 Taking the cardinal invocation of decades to be far more common than the ordinal invocation, it seems to me that the Cardinals win the decade debate; the decades begin on the `00` years. And although this is the opposite of century counting, the distinction in the concept of the decade seems to further warrant the distinction in counting.
 
-An alternative view sees a decade not as a particular sequence of ten-year periods that start either on the `00` or `01` years, but as _any_ ten-year period. This latter view was [introduced into the public consciousness](https://sports.yahoo.com/leafs-rielly-on-the-arrival-of-2020-i-dont-think-its-even-the-end-of-a-decade-174009256.html) recently by Morgan Rielly, a player for the Toronto Maple Leafs hockey team:
-
-> I don’t think it’s even the end of a decade. Every new year is the end of a decade.
-> 2008 to 2018 [sic] is a decade. 2009 to 2019 [sic] is a decade. Every f---ing one is the end of
-> a decade. So all these people saying the decade's come to an end --- that happens
-> every new year.
-> 
-> So, it's the end of the century, it's the end of you-name-it.
-
+{::comment}
 In terms of the ISO 8601 standard, that's the distinction between _decades_ (as introduced earlier) and _[time intervals](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals) of duration ten years_. Rielly gives two examples of such time intervals: `2008/2017` and `2009/2018`, both valid time intervals of year precision according to ISO 8601, and also expressible as `2008/P10Y` and `P10Y/2019` respectively. Or they could be ten-year time intervals at minute granularity, e.g., `2009-12-31T14:30/P10Y` as the decade beginning at 2:30 pm on 31 December 2009 and ending at 2:30 pm on 31 December 2019.
-
+{:/comment}
 
 
 
@@ -243,3 +255,9 @@ In terms of the ISO 8601 standard, that's the distinction between _decades_ (as 
 
 [^ny]:
 	_[New York State Constitution](https://www.dos.ny.gov/info/constitution.htm)_, Article III, Section 4.
+	
+[^censusarticle]:
+    S. N. D. North, "[Uniformity and Co-Operation in the Census Methods of the Republics of the American Continent](https://www.jstor.org/stable/2275965)." _Publications of the American Statistical Association_, Vol. 11, No. 84, December 1908, pp. 301.
+    
+[^eucensus]:
+    "[Regulation (EC) No. 763/2008 of the European Parliament and of the Council of 9 July 2008 on population and housing censuses](https://ec.europa.eu/eurostat/documents/3859598/9670557/KS-GQ-18-010-EN-N.pdf/c3df7fcb-f134-4398-94c8-4be0b7ec0494)," Article 5, Paragraph 1 ("Data transmission"), pp. 115 of linked document.
