@@ -162,7 +162,7 @@ Left: Have you wondered whether we've started a new decade as much as this perso
 	filename2="decade/washington-post-1899-12-31-cartoon.png"
 	caption=german_song %}
 
-On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilhelm II of Germany,[^kaiser] the Wellesley College president,[^colleges] and --- most importantly --- the common man. One such common man articulated his position on the "great secular event" of the turn of the century as a populist backlash to "the abacists":
+On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilhelm II of Germany,[^kaiser] the Wellesley College president,[^colleges] and --- most importantly --- the common people. One such common person articulated his position on the "great secular event" of the turn of the century as a populist backlash to "the abacists":
 
 > Shall we wait now a whole year for 1901, at the behest of the abacists? No, we will not pass over the significant year 1900, which is stamped with the great secular change, but with cheers we will welcome it and the new century. The 1900 men, who compose the vast majority of the people, say to their opponents: "We freely admit that the century you have in your mind, the artificial century, begins in 1901, but the natural century (which we prefer) begins in 1900."[^abacists]
 
@@ -213,10 +213,18 @@ In this article I've argued decades begin on `0` but centuries begin on `01`. (H
 
 Have we now begun a new decade, the 2020s? I argue yes, while others would argue no. The only certainty is that, like the century debate, the question will never quite die; it will circle back around every decade. "DISCUSSION ALWAYS RECURS," one 1900 headline reminds us.[^nashville1900] But if each time we can piece together a bit more perspective, culturally and historically, we might finally be equipped to solve it for good.
 
-Or maybe the common man will simply overpower the abacists.
+Or maybe the common people will simply overpower the abacists.
+
+
+
+
+
 
 
 ---
+
+
+
 
 [^gouldculture]:
     Stephen Jay Gould, [_Questioning the Millennium_](https://www.hup.harvard.edu/catalog.php?isbn=9780674061644), 1997, Part 2. 
