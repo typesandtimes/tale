@@ -14,7 +14,9 @@ A new year in the Common Era has arrived, surely to inundate us all with visual 
 
 The question has percolated through the loud void of social media, reverberating across [digital content mills and respectable media outlets alike](https://duckduckgo.com/?q=is+2020+a+new+decade&t=h_&ia=news). We all find ourselves burning with new intensity, searching for any authoritative voice to make sense of this quandary. _[The New York Times](https://www.nytimes.com/2019/11/28/us/what-is-decade.html), [Farmer's Almanac](https://www.farmersalmanac.com/new-decade-2020-or-2021-100900), [Timeanddate.com](https://www.timeanddate.com/calendar/decade.html), please somebody tell us!_
 
-{% include image.html filename="decade/when-new-decade-begins.png" description="Altered headline of the December 10, 1899 Boston Herald." %}
+{% include image.html
+	filename="decade/boston-herald-1899-when-new-century-begins.png"
+	description="Headline of the [10 December 1899 _Boston Herald_](#fn:colleges) that sought input from collegiate experts." %}
 
 Others resort to the nihilistic view that decades never begin or end, or rather, begin and end always and forever --- they're just ten-year spans of time without any defined order. This perspective was [introduced into the public mind](https://sports.yahoo.com/leafs-rielly-on-the-arrival-of-2020-i-dont-think-its-even-the-end-of-a-decade-174009256.html) recently by Morgan Rielly, a player for the Toronto Maple Leafs hockey team:
 
@@ -36,6 +38,12 @@ When asked whether 2020 marks a new decade, people fall into two camps, which I'
 * The Ordinals, on the other hand, answer _no, for decades are identified by ordinal numbers counted in sequence from the beginning_. The current decade, the 202nd (or the 2nd of the 21st century), includes the years 2011 through 2020, while the next decade, the 203rd, will include the years 2021 through 2030.
 
 These two camps are both so rational and natural that a person in one camp might deny the very existence of the other. Not since "[the dress](https://en.wikipedia.org/wiki/The_dress)" of 2015 --- is that still this decade? --- have two camps formed so resolutely online. Are they not both completely legitimate ways to count off the decades? If only some authoritative source could lend its weight to either camp.
+
+{% include two_images.html
+	filename1="decade/chicago-tribune-1929-cartoon-naming-decades.jpg"
+	filename2="decade/chicago-tribune-1930-response-to-cartoon-naming-decades.jpg"
+	img2_style="height: 284px;"
+	caption="Naming the next decade in the 29 December 1929 _Chicago Tribune_, followed by an angry letter to the editor disputing the cartoon in the 4 January 1930 issue." %}
 
 In an earlier time, the Pope himself might have served as just such an authority. After all, our calendar isn't called "[Gregorian](https://en.wikipedia.org/wiki/Gregorian_calendar)" for nothing; [Pope Gregory XIII]((https://en.wikipedia.org/wiki/Pope_Gregory_XIII)) commissioned it in the 16th century. Recent articles on the subject have consulted [meteorological associations](https://www.forbes.com/sites/marshallshepherd/2020/01/01/is-2020-the-start-of-a-new-decadea-human-technical-and-climate-perspective/#18ed2fd3ee2f), [philosophy professors](https://www.usatoday.com/story/news/nation/2019/12/10/2020-start-new-decade-some-say-thats-not-until-2021/4366467002/), and [the United States Naval Observatory](https://www.nytimes.com/2019/11/28/us/what-is-decade.html).
 
@@ -61,7 +69,7 @@ The practice of conducting a population census by state authorities goes back to
 
 Recent legislation in the European Union does exactly that. In its [standardization of population and housing census methodology](https://ec.europa.eu/eurostat/documents/3859598/9670557/KS-GQ-18-010-EN-N.pdf/c3df7fcb-f134-4398-94c8-4be0b7ec0494) for member states, the EU specifies that member nations run a census "every decade" on a "reference date" of their choosing. "The first reference year shall be 2011. [...] Reference years shall fall during the beginning of every decade."[^eucensus] In other words, the `1` years begin the decades and therefore the EU implicitly takes up the Ordinal position.
 
-For the United States in particular, it's even [in our Constitution](https://www.census.gov/history/pdf/Article_1_Section_2.pdf) to apportion Congressional representatives according to state populations counted "every subsequent Term of ten Years," though the period of "decade" is not used. In the New York state constitution, however, not only is "decade" mentioned (also for apportionment of representatives), but its exact year bounds are explicitly clarified:
+For the United States in particular, it's even [in our Constitution](https://www.census.gov/history/pdf/Article_1_Section_2.pdf) to apportion Congressional representatives according to state populations counted "every subsequent Term of ten Years," though the period of "decade" is not used. In [the New York state constitution](https://www.dos.ny.gov/info/constitution.htm), however, not only is "decade" mentioned (also for apportionment of representatives), but its exact year bounds are explicitly clarified:
 
 > ... if, in any decade, counting from and including that which begins with the year
 > nineteen hundred thirty-one, such a readjustment or alteration is not made at the time
@@ -71,7 +79,7 @@ For the United States in particular, it's even [in our Constitution](https://www
 
 Between the mention of 1931 as the beginning of a decade and the mention of 1936 as the sixth year of the decade, the New York constitution clearly takes the Ordinal position.
 
-Elsewhere, back to the whole US, the legal language around the decennial census itself does not seem to mention "decade" anywhere, not in any historic iteration of the Census Act and, surprisingly, not in the [US Code TItle 13](https://www.law.cornell.edu/uscode/text/13) that characterizes the census process.
+Back to the whole US, the legal language around the decennial census itself does not seem to mention "decade" anywhere, not in any historic iteration of the Census Act and, surprisingly, not in the [US Code Title 13](https://www.law.cornell.edu/uscode/text/13) that characterizes the census process.
 
 Our census occurs in the `0` years but there's no qualification that these _begin_ each decade. In a 1908 American Statistical Association [survey of census methodology across the Americas](https://www.jstor.org/stable/2275965), however, sheds some light on the counting in this field:
 
@@ -81,21 +89,37 @@ The US census occurs in the `0` years, referred to as the tenth (last) years of 
 
 Altogether it seems that decennial censuses suggest the Ordinal position on decades.
 
-# Enter the Journalists
+# The Historical Record
 
-With the geek and wonky authorities taking contradictory positions on the decade question, what about popular usage in the archives of major newspapers and other such publications?
+With the geek and wonky authorities taking contradictory positions on the decade question, what about popular usage in the archives of major newspapers and other such publications? A scattershot of archival records, mostly in major newspapers, usually via searching for `"new decade"`, suggests that both counting styles have been used consistently---and sometimes inconsistently in the same place. Such evidence includes:
 
+{% capture label_ordinal %}
+<span style="display: inline-block; width: 80px;">Ordinal:</span>
+{% endcapture %}
+{% capture label_cardinal %}
+<span style="display: inline-block; width: 80px;">Cardinal:</span>
+{% endcapture %}
+{% capture label_both %}
+<span style="display: inline-block; width: 80px;">Both:</span>
+{% endcapture %}
 
+* {{label_ordinal}} An [article in _Science_](https://books.google.com/books?id=zxxCAQAAMAAJ&pg=PA548&lpg=PA548&dq=lalande+Bibliographie+astronomique+%22decade%22&source=bl&ots=cHM2GTHXZj&sig=ACfU3U0zkocZC4YS7Dxd0ZmV2-gvOu9OXg&hl=en&sa=X&ved=2ahUKEwj5sInnvt7mAhVPhOAKHWn6BKMQ6AEwAHoECAkQAQ#v=onepage&q=lalande%20Bibliographie%20astronomique%20%22decade%22&f=false) tabulating a century-old bibliography of astronomy texts in 1906.[^sciencetab]
+* {{label_cardinal}} A [report](https://books.google.com/books?id=cB6gAAAAMAAJ&pg=PA199&dq=%22of+the+new+decade%22&hl=en&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwiE5frkvtzmAhWhmOAKHY4FASAQ6AEwAHoECAEQAg#v=onepage&q=decade&f=false) on a decennial medical conference in the 1876 _Transactions of the Medical Society of the State of New York_.[^medreport]
+* {{label_cardinal}} A [_New York Times_ article](https://timesmachine.nytimes.com/timesmachine/1860/01/02/83214202.html?pageNumber=5) welcoming the new year --- and decade --- in 1860.[^nyt1860]
+* {{label_both}} An [editorial](https://timesmachine.nytimes.com/timesmachine/1930/04/27/96111172.html?pageNumber=83) about the state of international politics in 1930, using ordinals to describe the decade but beginning from 1930![^nyt1930]
+* {{label_ordinal}} A [swanky fundraiser](https://timesmachine.nytimes.com/timesmachine/1941/01/30/85317887.html?pageNumber=24) called the "New Decade Mardi Gras and Ball" in January 1941, as reported by the _New York Times_.[^nyt1941]
+* {{label_cardinal}} A different, possibly [less swanky fundraiser](https://timesmachine.nytimes.com/timesmachine/1949/11/13/93550239.html?pageNumber=87) also called "New Decade" in December 1949, also reported by the _New York Times_.[^nyt1949]
+* {{label_cardinal}} A [1960 call](https://timesmachine.nytimes.com/timesmachine/1960/01/02/99282204.html?pageNumber=12) for a new Renaissance of worldly experts, not just invoking "our new decade" but identifying three decades cardinally.[^nyt1960]
+* {{label_cardinal}} The [inaugural speech](https://www.nytimes.com/1970/01/01/archives/text-of-the-lindsay-inaugural-speech.html) of New York City Mayor John Lindsay on the last day of 1969.[^nyt1970]
+* {{label_cardinal}} A [New Year message](https://www.newspapers.com/image/79198785/?terms=%22new%2Bdecade%22) in the 1880 _New York Tribune_.[^nytrib1880]
+* {{label_ordinal}} A [look at the plays](https://www.newspapers.com/image/85504863/?terms=%22new%2Bdecade%22) of "the new decade" ten years later in the 1890 _New York Tribune_.[^nytrib1890]
+* {{label_cardinal}} A [celebration of "holiday trade"](https://www.newspapers.com/image/430769476/?terms=%22new%2Bdecade%22) in the 1889 _Boston Globe_.[^bosglobe1889]
+* {{label_ordinal}} A chest-beating celebration of the _Chicago Tribune_'s year ahead in 1921.[^ctrib1921]
+* {{label_cardinal}} A [cartoon](https://www.newspapers.com/image/349805303/?terms=decade) about historians naming "the dying decade" in the 1929 _Chicago Tribune_.[^ctrib1929]
+* {{label_ordinal}} An [angry reader response](https://www.newspapers.com/image/349171819/?terms=%22new%2Bdecade%22) to that cartoon's mistake identifying the decade.[^ctrib1930]
 
-...
+Whew. With all the discord around counting decades, how do we resolve the dilemma? To better equip ourselves with the tools to conclusively resolve it, we should first look to _the century dilemma_.
 
-With all the discord around counting decades, how do we resolve the dilemma? To better equip ourselves with the tools to conclusively resolve it, we should first look to _the century dilemma_.
-
-
-* Give ISO definition
-* Give census definition
-* Give historical newspaper evidence
-* Arrrrgh so what's the answer??? Connect to historical debate about centuries.
 
 
 # Centuries of History of Centuries
@@ -127,13 +151,13 @@ A century later, he remarks, it would be Arthur C. Clarke's _2001_ vs. Prince's 
 On the side of high culture, insisting that centuries begin in the `01` years, stood [Pope Leo XIII](https://en.wikipedia.org/wiki/Pope_Leo_XIII),[^popeaddress] astronomers going back centuries,[^loc] and many newspaper editors. They even recognized the distinction as one between cardinal and ordinal numbers, going back at least to 1699.[^delaisement]
 
 {% capture german_song %}
-Have you wondered whether we've started a new decade as much as this person? "[Wann fängt das XIX. Jahrhundert an?](https://books.google.com/books?id=tRVDAAAAcAAJ&pg=PA857&lpg=PA857&dq=%22Wann+fangt+das+XIX.+Jahrhundert+an?%22&source=bl&ots=rn7HjVD-2F&sig=ACfU3U3D1TvWV04VyzhSD1mx9GH6xczr_Q&hl=en&sa=X&ved=2ahUKEwi44ZLTi-nmAhXjV98KHWmHC2QQ6AEwA3oECAQQAQ#v=onepage&q=%22Wann%20fangt%20das%20XIX.%20Jahrhundert%20an%3F%22&f=false)" ("When Does the 19th Century Begin?") _Allgemeine musikalische Zeitung_, 18 September 1799.
+Left: Have you wondered whether we've started a new decade as much as this person? "[Wann fängt das XIX. Jahrhundert an?](https://books.google.com/books?id=tRVDAAAAcAAJ&pg=PA857&lpg=PA857&dq=%22Wann+fangt+das+XIX.+Jahrhundert+an?%22&source=bl&ots=rn7HjVD-2F&sig=ACfU3U3D1TvWV04VyzhSD1mx9GH6xczr_Q&hl=en&sa=X&ved=2ahUKEwi44ZLTi-nmAhXjV98KHWmHC2QQ6AEwA3oECAQQAQ#v=onepage&q=%22Wann%20fangt%20das%20XIX.%20Jahrhundert%20an%3F%22&f=false)" ("When Does the 19th Century Begin?") _Allgemeine musikalische Zeitung_, 18 September 1799. Right: Cartoon from the 31 December 1899 _Washington Post_.
 {% endcapture %}
-{% include image.html
-	img_style="width: 50%;"
-	filename="decade/german-music.png"
-	description=german_song
-	figcaption_style="width: 600px;" %}
+{% include two_images.html
+	img1_style="max-width: 55%;"
+	filename1="decade/german-music.png"
+	filename2="decade/washington-post-1899-12-31-cartoon.png"
+	caption=german_song %}
 
 On the side of vernacular culture, arguing for the `00` years, stood Kaiser Wilhelm II of Germany,[^kaiser] the Wellesley College president,[^colleges] and --- most importantly --- the common man. One such common man articulated his position on the "great secular event" of the turn of the century as a populist backlash to "the abacists":
 
@@ -261,3 +285,48 @@ In terms of the ISO 8601 standard, that's the distinction between _decades_ (as 
     
 [^eucensus]:
     "[Regulation (EC) No. 763/2008 of the European Parliament and of the Council of 9 July 2008 on population and housing censuses](https://ec.europa.eu/eurostat/documents/3859598/9670557/KS-GQ-18-010-EN-N.pdf/c3df7fcb-f134-4398-94c8-4be0b7ec0494)," Article 5, Paragraph 1 ("Data transmission"), pp. 115 of linked document.
+
+[^sciencetab]:
+	Edward S. Holden, "[A Summary of the Bibliographie Astronomique of Lalande for the Years A.D. 130 to 1473, the Epoch at Which Scientific Books Began To Be Printed](https://books.google.com/books?id=zxxCAQAAMAAJ&pg=PA548&lpg=PA548&dq=lalande+Bibliographie+astronomique+%22decade%22&source=bl&ots=cHM2GTHXZj&sig=ACfU3U0zkocZC4YS7Dxd0ZmV2-gvOu9OXg&hl=en&sa=X&ved=2ahUKEwj5sInnvt7mAhVPhOAKHWn6BKMQ6AEwAHoECAkQAQ#v=onepage&q=lalande%20Bibliographie%20astronomique%20%22decade%22&f=false)," _Science_, New Series Vol. 23, No. 588, pp. 548. Holden tabulates the bibliographic data from Lalande, reproducing Lalande's (conventional) usage of ordinals for centuries; he also appears to give his own ordinal description of the decades within each century.
+
+[^medreport]:
+	E. R. Squibb, "[Report of Dr ER Squibb as Delegate to The American Medical Association on the US Pharmacopoeia](https://books.google.com/books?id=cB6gAAAAMAAJ&pg=PA199&dq=%22of+the+new+decade%22&hl=en&newbks=1&newbks_redir=0&sa=X&ved=2ahUKEwiE5frkvtzmAhWhmOAKHY4FASAQ6AEwAHoECAEQAg#v=onepage&q=decade&f=false)," _Transactions of the Medical Society of the State of New York_, 1876, pp. 199. The US Pharmacopoeia is a decennial conference occuring in the `0` years. Squibb mentions that the conventions are held on "the first year of the new decade."
+
+[^nyt1860]:
+	"[A Happy New Year](https://timesmachine.nytimes.com/timesmachine/1860/01/02/83214202.html?pageNumber=5)," _New York Times_, 2 January 1860, pp. 5. "The birthday of 1860, the commencement of a new decade, will not, we may fully anticipate, fall behind those of previous years, which have now joined the antediluvian era, to which the poet makes reference."
+
+[^nyt1930]:
+	"[Towering Problems of the New Decade](https://timesmachine.nytimes.com/timesmachine/1930/04/27/96111172.html?pageNumber=83)," _New York Times_, 27 April 1930, pp. 83. "As the fourth decade of the twentieth century opens [...] What are likely to be the dominant trends of the decade just beginning?"
+
+[^nyt1941]:
+	"[New Decade Dance to be Held Tonight](https://timesmachine.nytimes.com/timesmachine/1941/01/30/85317887.html?pageNumber=24)," _New York Times_, 30 January 1941, pp. 24.
+
+[^nyt1949]:
+	"[New Decade Dance to be Held Dec. 11](https://timesmachine.nytimes.com/timesmachine/1949/11/13/93550239.html?pageNumber=87)," _New York Times_, 13 November 1949, pp. 87.
+
+
+[^nyt1960]:
+	"[The Kind of Expert Our New Decade Needs](https://timesmachine.nytimes.com/timesmachine/1960/01/02/99282204.html?pageNumber=12)," _New York Times_, 2 January 1960, pp. 12. The article invokes "the Forties" as "the Atomic Decade," "the Fifties" as "[the] Lunik [decade]," and "the Sixties" as "the Decade of the Experts."
+
+
+[^nyt1970]:
+	"[Text of the Lindsay Inaugural Speech](https://www.nytimes.com/1970/01/01/archives/text-of-the-lindsay-inaugural-speech.html)," _New York Times_, 1 January 1970, pp. 15. The speech was delivered on 31 December 1969 opens with the statement that "[t]his is the last day of the decade."
+
+[^nytrib1880]:
+	"[Progress](https://www.newspapers.com/image/79198785/?terms=%22new%2Bdecade%22)," _New York Tribune_, 1 January 1880, pp. 4. "A new decade begins."
+
+[^nytrib1890]:
+	"[Plays of Ninety-One](https://www.newspapers.com/image/85504863/?terms=%22new%2Bdecade%22)," _New York Tribune_, 28 December 1890, pp. 19. The dek: "How the New Decade Will Begin at the Theatres."
+
+[^bosglobe1889]:
+	"[The Holiday Month](https://www.newspapers.com/image/430769476/?terms=%22new%2Bdecade%22)," _Boston Globe_, 1 December 1889, pp. 12. Mentions "the new decade that starts with 1890."
+
+[^ctrib1921]:
+	"[1921 Will Reward Fighters](https://www.newspapers.com/image/355137895/?terms=%22new%2Bdecade%22)," _Chicago Tribune_, 3 January 1921, pp. 34. "A new year, a new decade, a new epoch open before us."
+
+[^ctrib1929]:
+	"[When the Historians Meets to Name the Dying Decade](https://www.newspapers.com/image/349805303/?terms=decade)," _Chicago Tribune_, 29 December 1929, pp. 1. See the [embedded image](/assets/img/decade/chicago-tribune-1929-cartoon-naming-decades.jpg) in this article.
+
+[^ctrib1930]:
+	"[The End of the Decade](https://www.newspapers.com/image/349171819/?terms=%22new%2Bdecade%22)," _Chicago Tribune_, 4 January 1930, pp. 10. A reader's frustrated rejection of the political cartoon published a week before. "Even your leading cartoonist appears to make this mistake. The year 1930 is the last of the third decade, and the fourth decade will not begin until Jan. 1, 1931." See the [embedded image](/assets/img/decade/chicago-tribune-1930-response-to-cartoon-naming-decades.jpg) in this article.
+

@@ -1,12 +1,12 @@
 <figure class="two_images"{% if include.style %} style="{{include.style}}"{% endif %}>
   <span>
     <a href="{{ "/assets/img/" | append: include.filename1 | absolute_url }}">
-    <img src="{{ "/assets/img/" | append: include.filename1 | absolute_url }}" alt="{{ include.description1 | strip_html }}">
+    <img{% if include.img1_style %} style="{{include.img1_style}}"{% endif %} src="{{ "/assets/img/" | append: include.filename1 | absolute_url }}" alt="{{ include.description1 | strip_html }}">
     </a>
   </span>
   <span>
     <a href="{{ "/assets/img/" | append: include.filename2 | absolute_url }}">
-    <img src="{{ "/assets/img/" | append: include.filename2 | absolute_url }}" alt="{{ include.description2 | strip_html }}">
+    <img{% if include.img2_style %} style="{{include.img2_style}}"{% endif %} src="{{ "/assets/img/" | append: include.filename2 | absolute_url }}" alt="{{ include.description2 | strip_html }}">
     </a>
   </span>
   <figcaption{% if include.figcaption_style %} style="{{include.figcaption_style}}"{% endif %}>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
