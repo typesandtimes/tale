@@ -7,7 +7,6 @@ image:
   alt:      "Trump's shutdown meets Punxsutawney Phil."
   caption:  "Trump's shutdown meets Punxsutawney Phil."
 date: 2019-01-18
-author: "Scott"
 ---
 
 

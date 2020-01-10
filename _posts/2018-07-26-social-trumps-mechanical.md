@@ -7,7 +7,6 @@ image:
   alt:      "The Japanese imperial calendar"
   caption:  "The Japanese imperial calendar uses its own eras and years of eras."
 date: 2018-07-26
-author: "Scott"
 ---
 
 In the Japanese imperial calendar there are eras defined by each emperor's reign.

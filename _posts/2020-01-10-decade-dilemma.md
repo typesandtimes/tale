@@ -9,7 +9,6 @@ image:
   caption:   "Illustration on the front page of the 1 January 1901 issue of The Washington Times, altered."
 
 date: 2020-01-10
-author: "Scott Kilpatrick"
 ---
 
 A new year in the Common Era has arrived, surely to inundate us all with visual acuity puns. But has _a new decade_ also arrived?

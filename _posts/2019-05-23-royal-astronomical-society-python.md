@@ -7,7 +7,6 @@ image:
   alt:      "A mash-up of the Monthly Notices of the Royal Astronomical Society report and a Jupyter notebook."
   caption:  "A mash-up of the Monthly Notices of the Royal Astronomical Society report and a Jupyter notebook."
 date: 2019-05-23
-author: "Scott"
 ---
 
 

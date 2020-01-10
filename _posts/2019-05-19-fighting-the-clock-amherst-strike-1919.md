@@ -7,7 +7,6 @@ image:
   alt:      "Workers in Amherst, Nova Scotia on strike for shorter work days in 1919."
   caption:  "Workers in Amherst, Nova Scotia on strike for shorter work days in 1919."
 date: 2019-05-19
-author: "Scott"
 ---
 
 
