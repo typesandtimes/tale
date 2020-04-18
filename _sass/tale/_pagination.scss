@@ -5,9 +5,10 @@
   position: relative;
   text-align: center;
 
-  span {
+  .current {
     color: $default-shade;
     font-size: 1.1rem;
+    font-style: italic;
   }
 
   .top {
@@ -25,6 +26,7 @@
   .arrow {
     @include transition(all .3s ease-out);
     color: $default-color;
+    font-style: italic;
     position: absolute;
 
     &:hover,
@@ -36,9 +38,32 @@
 
   .left {
     left: 0;
+    float: left;
   }
 
   .right {
     right: 0;
+    float: right;
+  }
+
+  .subscribe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+    display: block;
+    font-style: italic;
+
+    a {
+      color: $default-color;
+    }
   }
 }
+
+.on-post {
+  color: $grey-1;
+}
+
+/*.on-post .arrow {
+  color: $grey-1;
+}*/

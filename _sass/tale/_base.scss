@@ -93,8 +93,6 @@ hr::before {
     font-family: $monospaced;
 }
 
-.subscribe {
-    color: $grey-1;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+footer a {
+  color: $default-color;
 }

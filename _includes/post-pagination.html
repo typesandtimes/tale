@@ -1,0 +1,13 @@
+
+<div class="pagination on-post">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592; Next Post</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">Previous Post &#8594;</a>
+  {% endif %}
+
+  <div class="subscribe">
+    If you liked this post, subscribe to <a href="https://typesandtimes.substack.com/">my newsletter</a> to be notified when there's a new one. And follow me on <a href="https://fb.com/typesandtimes">Facebook</a> and <a href="https://twitter.com/typesandtimes">Twitter</a> as <span class="mono">typesandtimes</span>.
+  </div>
+</div>

@@ -13,7 +13,7 @@ layout: default
 
     {% if page.date %}
       <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%d %B %Y" }}</time>
     {% endif %}
   </div>
 
@@ -24,13 +24,4 @@ layout: default
 
 </div>
 
-<div class="pagination">
-  {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-  {% endif %}
-
-  <a href="#" class="top">Top</a>
-</div>
+{% include post-pagination.html %}
