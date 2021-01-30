@@ -26,18 +26,34 @@ court decision, march 22nd: https://versa.cardozo.yu.edu/opinions/meshulami-v-ch
 {:/comment}
 
 
-# Calendar as Specification and Implementation
+# Calendar Fiddler on the Roof
 
-What is the Hebrew calendar? Well, like any calendar, it's an assignment of particular months, days of months, and years to actually-experienced time on Earth. What day is today in the Gregorian calendar? The 22nd of April in the year 2020 CE. What day is today in the Hebrew calendar? The __ of Nisan in the year 5780. Clearly, the two calendars disagree on what day it is, what month it is, and what year it is. More than that, they don't even have the same months or numbering schemas!
+What is the Hebrew calendar? Well, like any calendar, it's an assignment of particular dates, months, and years to actually-experienced time on Earth. What day is today in the Gregorian calendar? The 22nd of April in the year 2020 CE. What day is today in the Hebrew calendar? The __ of Nisan in the year 5780. Clearly, the two calendars disagree on what day it is, what month it is, and what year it is. More than that, they don't even have the same months or numbering schemas!
 
-The Hebrew calendar, like other ancient calendars, is _lunisolar_. That means each _month_ should coincide with a _lunar_ cycle (of the moon around the earth) and each _year_ should coincide with a _solar_ cycle (of the earth around the sun).
+The Hebrew calendar, like other ancient calendars, is _lunisolar_. That means each _month_ should coincide with a _lunar_ cycle (of the moon around the earth) and each _year_ should coincide with a _solar_ cycle (of the earth around the sun). Here's what those two constraints mean.
 
-For us Gregorians, the lunar constraint seems strange (although that was a historical origin of our notion of months), but the solar constraint looks pretty familiar. Indeed, our calendar is designed to match solar cycles, which is why the vernal equinox always falls roughly on the 20th of March. "Wow, ingenious, how does it do that?" you ask. The answer lies in intercalation: adding a leap day.
+* _The lunar constraint_. Each of the 12 months in the Hebrew calendar begins the day of the new moon --- which day exactly? we'll return to that point! --- and lasts the whole lunar cycle, about 29 and a half days. Because the lunar cycle doesn't match a whole number of days, we have to trade off month lengths by alternating, at a rough first approximation, 29 days one month, 30 the next, 29 after that, and so on.
 
-LEFT OFF HERE
+* _The solar constraint_. As we know in the Gregorian calendar, a solar year is not equal to a whole number of days; it's more like 365 and a quarter. Thus the leap! In our calendar we insert a leap day every now and then, totaling 97 days every 400-year cycle. Likewise in the Hebrew calendar, we can't make a year --- which consists of a whole number of months, each consisting of a whole number of days --- evenly match a solar cycle. But instead of inserting _days_ we insert _a whole month_.[^adar]
+
+On top of the lunisolar constraints are some additional _ecclesiastical rules_ that the calendar must follow, like that Rosh Hashanah (1st of Tishrei) can never fall on a Sunday, Wednesday, or Friday. We'll return to these sorts of rules later.
+
+Imagine yourself as the Calendar Decider. Your task is to assign calendar dates to actual days, like _today_ and _tomorrow_. Once you choose an _epoch_ (e.g., _today is 1st of Tishrei, Year 1_), much of the calendar follows mechanically from that original choice (e.g., _the subsequent ten days are 2nd through 11th of Tishrei, Year 1_). But because of the lunisolar constraints, you still have to make some decisions to wrangle those mechanics into alignment with nature. At your disposal for this task are two buttons. Fiddling with them lets you fully decide the rest of the calendar.
+
+* The first button controls _the start of each month_. That one's easy: just push the button whenever you see a new moon, thus, the new lunar cycle, in order to mark a new month as having begun on the present day.
+
+* The second button controls _the insertion of a leap month_. After many years of deciding the calendar, does it look like your calendar year is falling out of alignment with the solar year? Then push the button to insert another month of Adar before the normal one! But you can only push it once a year.
+
+With the two buttons, you can now offer up your own rule-abiding Hebrew calendar to interpret the days of the Earth. And so can I! Did we come up with the same assignment of calendar dates, or did we choose different epochs and press the buttons at different times? If we're both ostensibly following _the Hebrew calendar_ for religious reasons, whose exact calendar assignment do we follow?
+
+
+# Too Many Calendars in the Kitchen
 
 
 
+
+
+{::comment}
 * The first knob controls the durations of _months_ in terms of _days_. Each of the 12 months in the Hebrew calendar begins the day of the new moon --- which day exactly? we'll return to that point! --- and lasts the whole lunar cycle, about 29 and a half days. Because the lunar cycle doesn't match a whole number of days, we have to trade off month lengths by alternating, at first approximation, 29 days one month, 30 the next, 29 after that, and so on.
 
 * The second knob controls the durations of _years_ in terms of _months_. As we know in the Gregorian calendar, a solar year is not equal to a whole number of days; it's more like 365 and a quarter. Thus the leap! In our calendar we insert a leap day every now and then, totaling 97 days every 400-year cycle. Likewise in the Hebrew calendar, we can't make a year --- which consists of a whole number of months, each consisting of a whole number of days --- evenly match a solar cycle. But instead of inserting _days_ we insert _a whole month_.[^adar]
@@ -52,6 +68,8 @@ An implementation of the Hebrew calendar consists of a mapping of the calendar's
 --- the nam two lunisolar constraints it should adhere to --- and, if we were to follow it, we'd need an _implementation_ of the calendar --- a mapping of the calendar's days, months, and years onto the days as we experience them (and also going backwards and forwards in time).
 
 Today, there's (arguably) _one_ Hebrew calendar implementation, a calendar followed by the state and many inhabitants of Israel and by other Jewish people around the world.
+{:/comment}
+
 
 
 # From Empiricism to Algorithm
